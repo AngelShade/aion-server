@@ -34,3 +34,38 @@
 2026-09-27T18:45:34,909+03:00 INFO  [pool-3-thread-241] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
 2026-09-27T18:46:37,649+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
 2026-09-27T18:46:37,653+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T18:49:41,122+03:00 INFO  [pool-3-thread-243] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T18:53:27,808+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T18:53:28,472+03:00 INFO  [pool-3-thread-282] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T18:54:21,856+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T18:54:21,860+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T18:55:34,275+03:00 INFO  [pool-3-thread-284] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T19:02:54,969+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.service.ChatService - Player[id=9403] logged out 
+2026-09-27T19:02:54,971+03:00 INFO  [pool-3-thread-342] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T19:02:55,154+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T19:03:35,817+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T19:03:35,821+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T19:03:59,714+03:00 INFO  [pool-3-thread-345] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T19:11:50,518+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T19:11:51,191+03:00 INFO  [pool-3-thread-410] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T19:12:43,236+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T19:12:43,242+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T19:13:38,511+03:00 INFO  [pool-3-thread-413] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T20:41:13,284+03:00 INFO  [pool-3-thread-975] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T20:41:13,306+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.service.ChatService - Player[id=9403] logged out 
+2026-09-27T20:46:16,973+03:00 INFO  [pool-3-thread-977] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T20:46:56,606+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T20:46:56,612+03:00 INFO  [pool-3-thread-994] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T20:47:13,601+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T20:47:13,605+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T20:48:00,132+03:00 INFO  [pool-3-thread-996] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T20:49:58,106+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T20:49:58,111+03:00 INFO  [pool-3-thread-1020] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T20:50:14,534+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T20:50:14,539+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T20:50:25,120+03:00 INFO  [pool-3-thread-1023] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T20:56:20,076+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T20:56:20,152+03:00 INFO  [pool-3-thread-1082] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T20:56:37,921+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T20:56:37,925+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T20:58:59,695+03:00 INFO  [pool-3-thread-1086] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
