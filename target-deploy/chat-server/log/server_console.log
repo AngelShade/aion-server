@@ -1,0 +1,36 @@
+2026-09-27T17:45:54,528+03:00 INFO  [main] com.aionemu.chatserver.configs.Config - Loading default configuration values from: ./config/main/*
+2026-09-27T17:45:54,535+03:00 INFO  [main] com.aionemu.chatserver.configs.Config - Loading default configuration values from: ./config/network/*
+2026-09-27T17:45:54,551+03:00 INFO  [main] com.aionemu.chatserver.configs.Config - Loading: ./config/mycs.properties
+2026-09-27T17:45:54,579+03:00 INFO  [main] com.aionemu.chatserver.configs.Config - No connect IP for Aion client configured, using 192.168.1.130
+2026-09-27T17:45:54,591+03:00 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-27T17:45:55,007+03:00 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ab7395e
+2026-09-27T17:45:55,009+03:00 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-27T17:45:55,017+03:00 INFO  [main] com.aionemu.commons.utils.info.VersionInfo -     commons-4.8-SNAPSHOT.jar revision 4617c9f (4.8) built on 2026-09-27 09:28 for Java 25
+2026-09-27T17:45:55,018+03:00 INFO  [main] com.aionemu.commons.utils.info.VersionInfo - chat-server-4.8-SNAPSHOT.jar revision 4617c9f (4.8) built on 2026-09-27 09:28 for Java 25
+2026-09-27T17:45:55,028+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - OS:  Windows 11 (amd64) version 10.0
+2026-09-27T17:45:55,028+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - JVM: OpenJDK 64-Bit Server VM version 25.0.1+8-LTS (2025-10-21)
+2026-09-27T17:45:55,029+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - JVM available CPUs:     12
+2026-09-27T17:45:55,029+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - Max. memory allowed:    72 MiB
+2026-09-27T17:45:55,029+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - ├ Allocated memory:     72 MiB (100 %)
+2026-09-27T17:45:55,029+03:00 INFO  [main] com.aionemu.commons.utils.info.SystemInfo - └ Used memory:          37 MiB  (51 %)
+2026-09-27T17:45:55,092+03:00 INFO  [main] com.aionemu.chatserver.network.netty.NettyServer - Listening on all addresses on port 10241 for Aion game clients
+2026-09-27T17:45:55,098+03:00 INFO  [main] com.aionemu.commons.network.NioServer - Listening on all addresses on port 9021 for game servers
+2026-09-27T17:46:10,464+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T17:46:10,469+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T18:00:15,956+03:00 INFO  [pool-3-thread-2] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T18:21:41,088+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.service.ChatService - Player[id=9403] logged out 
+2026-09-27T18:21:41,091+03:00 INFO  [pool-3-thread-143] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T18:21:41,278+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T18:22:48,970+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T18:22:48,976+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T18:30:43,997+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T18:32:00,428+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T18:32:00,433+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
+2026-09-27T18:32:56,566+03:00 INFO  [pool-3-thread-146] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T18:33:27,176+03:00 INFO  [pool-3-thread-163] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T18:33:27,197+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.service.ChatService - Player[id=9403] logged out 
+2026-09-27T18:35:00,404+03:00 INFO  [pool-3-thread-166] com.aionemu.chatserver.network.netty.handler.ClientChannelHandler - Channel connected Ip: 192.168.1.130
+2026-09-27T18:45:33,977+03:00 INFO  [pool-4-thread-1] com.aionemu.chatserver.service.GameServerService - Gameserver #1 is disconnected
+2026-09-27T18:45:34,909+03:00 INFO  [pool-3-thread-241] com.aionemu.chatserver.network.netty.handler.AbstractChannelHandler - Channel disconnected IP: 192.168.1.130
+2026-09-27T18:46:37,649+03:00 INFO  [Accept Dispatcher] com.aionemu.chatserver.network.gameserver.GsConnection - Gameserver connection attempt from: 127.0.0.1
+2026-09-27T18:46:37,653+03:00 INFO  [pool-5-thread-1] com.aionemu.chatserver.network.gameserver.clientpackets.CM_CS_AUTH - Gameserver #1 is now online
