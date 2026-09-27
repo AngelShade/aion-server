@@ -303,3 +303,30 @@
 18:46:37 [34mINFO [0;39m [1;30m[main][0;39m - Connected to chat server
 18:46:37 [34mINFO [0;39m [1;30m[ReadWrite-0 Dispatcher][0;39m - Loaded 0 banned mac addresses
 18:46:37 [34mINFO [0;39m [1;30m[InstantPool-5][0;39m - Loaded 0 HDD ban entries.
+18:49:37 [34mINFO [0;39m [1;30m[pool-1-thread-4][0;39m - Sending current game time to all players
+18:49:37 [34mINFO [0;39m [1;30m[pool-1-thread-4][0;39m - Game time saved...
+18:49:37 [34mINFO [0;39m [1;30m[InstantPool-3][0;39m - Account [id=1, name=AngelShade] authed with MAC: B4-2E-99-CB-64-E9 and HDD serial: 0000_0000_0100_0
+18:49:38 [34mINFO [0;39m [1;30m[PacketProcessor:0][0;39m - Player Baby (Account [id=1, name=AngelShade]) logged on
+18:49:38 [34mINFO [0;39m [1;30m[PacketProcessor:0][0;39m - ExpireTimerTask initialized.
+18:49:40 [34mINFO [0;39m [1;30m[pool-1-thread-10][0;39m - [SurveyController] update task start.
+18:49:41 [34mINFO [0;39m [1;30m[PacketProcessor:2][0;39m - PlayerMoveTaskManager initialized.
+18:52:37 [34mINFO [0;39m [1;30m[pool-1-thread-8][0;39m - Sending current game time to all players
+18:52:37 [34mINFO [0;39m [1;30m[pool-1-thread-8][0;39m - Game time saved...
+18:52:47 [34mINFO [0;39m [1;30m[PacketProcessor:2][0;39m - DuelService started.
+18:53:27 [34mINFO [0;39m [1;30m[InstantPool-3][0;39m - Client disconnected: Account [id=1, name=AngelShade] Player [id=9403, name=Baby] (client crash or connection loss)
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - Closing ServerChannels...
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - ServerChannels closed.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	Closing 2 connections...
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	Active connections left: 0
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - Starting data save on shutdown.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - Legion WH update task started.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - Legion WH update: 0 ms, legions: 0.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - Data successfully saved.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - ThreadPoolManager: Shutting down.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... executing 0/642 scheduled tasks.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... executing 0 instant tasks.
+18:53:27 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... executing 0 long running tasks.
+18:53:28 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... success: true in 4 msec.
+18:53:28 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... 0 scheduled tasks left.
+18:53:28 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... 0 instant tasks left.
+18:53:28 [34mINFO [0;39m [1;30m[Thread-14][0;39m - 	... 0 long running tasks left.
