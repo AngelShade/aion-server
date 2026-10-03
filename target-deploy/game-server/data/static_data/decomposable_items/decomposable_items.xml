@@ -18031,7 +18031,116 @@
 		</items>
 	</decomposable>
 	<decomposable item_id="188052186" /><!-- [Event] Zealous Daeva's Guestbloom Fertilizer Bundle -->
-	<decomposable item_id="188052187" /><!-- [Event] Blessed Daeva's Composite Manastone Pouch -->
+	<decomposable item_id="188052187">
+		<items chance="3.70">
+			<item id="167000578" />
+		</items>
+		<items chance="3.70">
+			<item id="167000579" />
+		</items>
+		<items chance="3.50">
+			<item id="167000584" />
+		</items>
+		<items chance="3.50">
+			<item id="167000587" />
+		</items>
+		<items chance="3.50">
+			<item id="167000588" />
+		</items>
+		<items chance="3.50">
+			<item id="167000589" />
+		</items>
+		<items chance="3.50">
+			<item id="167000596" />
+		</items>
+		<items chance="3.50">
+			<item id="167000597" />
+		</items>
+		<items chance="3.50">
+			<item id="167000603" />
+		</items>
+		<items chance="3.50">
+			<item id="167000605" />
+		</items>
+		<items chance="3.50">
+			<item id="167000606" />
+		</items>
+		<items chance="3.50">
+			<item id="167000607" />
+		</items>
+		<items chance="2.80">
+			<item id="167000614" />
+		</items>
+		<items chance="2.80">
+			<item id="167000615" />
+		</items>
+		<items chance="2.80">
+			<item id="167000616" />
+		</items>
+		<items chance="2.80">
+			<item id="167000619" />
+		</items>
+		<items chance="2.80">
+			<item id="167000620" />
+		</items>
+		<items chance="2.80">
+			<item id="167000621" />
+		</items>
+		<items chance="2.80">
+			<item id="167000628" />
+		</items>
+		<items chance="2.80">
+			<item id="167000629" />
+		</items>
+		<items chance="2.80">
+			<item id="167000635" />
+		</items>
+		<items chance="2.80">
+			<item id="167000637" />
+		</items>
+		<items chance="2.80">
+			<item id="167000638" />
+		</items>
+		<items chance="2.80">
+			<item id="167000639" />
+		</items>
+		<items chance="2.00">
+			<item id="167000646" />
+		</items>
+		<items chance="2.00">
+			<item id="167000647" />
+		</items>
+		<items chance="2.00">
+			<item id="167000652" />
+		</items>
+		<items chance="2.00">
+			<item id="167000655" />
+		</items>
+		<items chance="2.00">
+			<item id="167000656" />
+		</items>
+		<items chance="2.00">
+			<item id="167000657" />
+		</items>
+		<items chance="2.00">
+			<item id="167000664" />
+		</items>
+		<items chance="2.00">
+			<item id="167000665" />
+		</items>
+		<items chance="2.00">
+			<item id="167000671" />
+		</items>
+		<items chance="2.00">
+			<item id="167000673" />
+		</items>
+		<items chance="2.00">
+			<item id="167000674" />
+		</items>
+		<items chance="2.00">
+			<item id="167000675" />
+		</items>
+	</decomposable><!-- [Event] Blessed Daeva's Composite Manastone Pouch -->
 	<decomposable item_id="188052188" /><!-- [Event] Guild Token Box -->
 	<decomposable item_id="188052189" /><!-- [Event] Guild Token Box -->
 	<decomposable item_id="188052190" /><!-- Gift-wrapped Dapper Hat -->
@@ -22202,7 +22311,116 @@
 			<item id="166050036" /><!-- Esoteric Idian: Resistance -->
 		</items>
 	</decomposable>
-	<decomposable item_id="188052555" /><!-- [Event] Greater Composite Manastone Chest -->
+	<decomposable item_id="188052555">
+		<items chance="0.79">
+			<item id="167000682" />
+		</items>
+		<items chance="6.54">
+			<item id="167000683" />
+		</items>
+		<items chance="0.79">
+			<item id="167000684" />
+		</items>
+		<items chance="0.79">
+			<item id="167000685" />
+		</items>
+		<items chance="6.55">
+			<item id="167000686" />
+		</items>
+		<items chance="0.79">
+			<item id="167000687" />
+		</items>
+		<items chance="6.54">
+			<item id="167000688" />
+		</items>
+		<items chance="6.54">
+			<item id="167000689" />
+		</items>
+		<items chance="0.39">
+			<item id="167000690" />
+		</items>
+		<items chance="0.79">
+			<item id="167000691" />
+		</items>
+		<items chance="0.79">
+			<item id="167000692" />
+		</items>
+		<items chance="0.79">
+			<item id="167000693" />
+		</items>
+		<items chance="0.79">
+			<item id="167000694" />
+		</items>
+		<items chance="0.79">
+			<item id="167000695" />
+		</items>
+		<items chance="0.79">
+			<item id="167000696" />
+		</items>
+		<items chance="0.79">
+			<item id="167000697" />
+		</items>
+		<items chance="6.54">
+			<item id="167000698" />
+		</items>
+		<items chance="6.54">
+			<item id="167000699" />
+		</items>
+		<items chance="6.54">
+			<item id="167000700" />
+		</items>
+		<items chance="6.54">
+			<item id="167000701" />
+		</items>
+		<items chance="6.54">
+			<item id="167000702" />
+		</items>
+		<items chance="0.79">
+			<item id="167000703" />
+		</items>
+		<items chance="0.39">
+			<item id="167000704" />
+		</items>
+		<items chance="0.39">
+			<item id="167000705" />
+		</items>
+		<items chance="0.79">
+			<item id="167000706" />
+		</items>
+		<items chance="6.54">
+			<item id="167000707" />
+		</items>
+		<items chance="0.39">
+			<item id="167000708" />
+		</items>
+		<items chance="0.79">
+			<item id="167000709" />
+		</items>
+		<items chance="6.54">
+			<item id="167000710" />
+		</items>
+		<items chance="6.54">
+			<item id="167000711" />
+		</items>
+		<items chance="6.54">
+			<item id="167000712" />
+		</items>
+		<items chance="0.79">
+			<item id="167000713" />
+		</items>
+		<items chance="0.39">
+			<item id="167000714" />
+		</items>
+		<items chance="0.39">
+			<item id="167000749" />
+		</items>
+		<items chance="0.39">
+			<item id="167000750" />
+		</items>
+		<items chance="0.39">
+			<item id="167000751" />
+		</items>
+	</decomposable><!-- [Event] Greater Composite Manastone Chest -->
 	<decomposable item_id="188052556"><!-- Composite Manastone Bundle -->
 		<items chance="50.0">
 			<random_item type="MANASTONE_LEGEND_GRADE_40" />
@@ -27906,7 +28124,41 @@
 	<decomposable item_id="188053065" /><!-- Tessia's Armor Box -->
 	<decomposable item_id="188053066" /><!-- Daru Cipher-Blade Box -->
 	<decomposable item_id="188053067" /><!-- Ailu Cipher-Blade Box -->
-	<decomposable item_id="188053068" /><!-- Elite Greater Composite Manastone Chest -->
+	<decomposable item_id="188053068">
+		<items chance="15.00">
+			<item id="167000685" min_count="5" />
+		</items>
+		<items chance="15.00">
+			<item id="167000750" min_count="5" />
+		</items>
+		<items chance="10.00">
+			<item id="167000684" min_count="3" />
+		</items>
+		<items chance="3.00">
+			<item id="167000749" />
+		</items>
+		<items chance="11.00">
+			<item id="167000692" min_count="5" />
+		</items>
+		<items chance="3.00">
+			<item id="167000695" min_count="3" />
+		</items>
+		<items chance="3.00">
+			<item id="167000696" min_count="3" />
+		</items>
+		<items chance="2.00">
+			<item id="167000705" />
+		</items>
+		<items chance="10.00">
+			<item id="167000704" min_count="4" />
+		</items>
+		<items chance="11.00">
+			<item id="167000714" min_count="4" />
+		</items>
+		<items chance="17.00">
+			<item id="167000697" min_count="5" />
+		</items>
+	</decomposable><!-- Elite Greater Composite Manastone Chest -->
 	<decomposable item_id="188053069"><!-- Dazzling Daevanion Box -->
 		<items>
 			<item id="188053070" race="ELYOS" player_classes="CLERIC CHANTER RIDER" /><!-- Dazzling Daevanion Chain Bundle -->
@@ -36739,21 +36991,630 @@
 	<decomposable item_id="188053972" /><!-- Wrapper Bundle -->
 	<decomposable item_id="188053973" /><!-- Elite Legionnaire Equipment Box -->
 	<decomposable item_id="188053974" /><!-- Special Legionnaire Equipment Box -->
-	<decomposable item_id="188053975" /><!-- Stigma Box -->
-	<decomposable item_id="188053976" /><!-- Greater Stigma Box -->
+	<decomposable item_id="188053975">
+		<items>
+			<item id="188053750" player_classes="GLADIATOR" />
+			<item id="188053751" player_classes="TEMPLAR" />
+			<item id="188053752" player_classes="ASSASSIN" />
+			<item id="188053753" player_classes="RANGER" />
+			<item id="188053754" player_classes="SORCERER" />
+			<item id="188053755" player_classes="SPIRIT_MASTER" />
+			<item id="188053757" player_classes="CHANTER" />
+			<item id="188053756" player_classes="CLERIC" />
+			<item id="188053758" player_classes="GUNNER" />
+			<item id="188053759" player_classes="RIDER" />
+			<item id="188053760" player_classes="BARD" />
+		</items>
+	</decomposable><!-- Stigma Box -->
+	<decomposable item_id="188053976">
+		<items>
+			<item id="188053761" player_classes="GLADIATOR" />
+			<item id="188053762" player_classes="TEMPLAR" />
+			<item id="188053763" player_classes="ASSASSIN" />
+			<item id="188053764" player_classes="RANGER" />
+			<item id="188053765" player_classes="SORCERER" />
+			<item id="188053766" player_classes="SPIRIT_MASTER" />
+			<item id="188053768" player_classes="CHANTER" />
+			<item id="188053767" player_classes="CLERIC" />
+			<item id="188053769" player_classes="GUNNER" />
+			<item id="188053770" player_classes="RIDER" />
+			<item id="188053771" player_classes="BARD" />
+		</items>
+	</decomposable><!-- Greater Stigma Box -->
 	<decomposable item_id="188053977" /><!-- Rare Manastone Bundle -->
 	<decomposable item_id="188053978" /><!-- Abyssal Invasion Reward Box -->
-	<decomposable item_id="188053979" /><!-- Gladiator Stigma Bundle -->
-	<decomposable item_id="188053980" /><!-- Templar Stigma Bundle -->
-	<decomposable item_id="188053981" /><!-- Assassin Stigma Bundle -->
-	<decomposable item_id="188053982" /><!-- Ranger Stigma Bundle -->
-	<decomposable item_id="188053983" /><!-- Sorcerer Stigma Bundle -->
-	<decomposable item_id="188053984" /><!-- Spiritmaster Stigma Bundle -->
-	<decomposable item_id="188053985" /><!-- Cleric Stigma Bundle -->
-	<decomposable item_id="188053986" /><!-- Chanter Stigma Bundle -->
-	<decomposable item_id="188053987" /><!-- Gunslinger Stigma Bundle -->
-	<decomposable item_id="188053988" /><!-- Aethertech Stigma Bundle -->
-	<decomposable item_id="188053989" /><!-- Songweaver Stigma Bundle -->
+	<decomposable item_id="188053979">
+		<items chance="4.50">
+			<item id="140001104" />
+		</items>
+		<items chance="14.00">
+			<item id="140001108" />
+		</items>
+		<items chance="9.50">
+			<item id="140001105" />
+		</items>
+		<items chance="13.00">
+			<item id="140001106" />
+		</items>
+		<items chance="5.50">
+			<item id="140001103" />
+		</items>
+		<items chance="3.50">
+			<item id="140001107" />
+		</items>
+		<items chance="1.80">
+			<item id="140001117" />
+		</items>
+		<items chance="2.70">
+			<item id="140001116" />
+		</items>
+		<items chance="5.40">
+			<item id="140001114" />
+		</items>
+		<items chance="6.30">
+			<item id="140001112" />
+		</items>
+		<items chance="5.40">
+			<item id="140001110" />
+		</items>
+		<items chance="3.00">
+			<item id="140001109" />
+		</items>
+		<items chance="2.70">
+			<item id="140001113" />
+		</items>
+		<items chance="1.80">
+			<item id="140001111" />
+		</items>
+		<items chance="0.90">
+			<item id="140001115" />
+		</items>
+		<items chance="16.00">
+			<item id="140001118" />
+		</items>
+		<items chance="4.00">
+			<item id="140001119" />
+		</items>
+	</decomposable><!-- Gladiator Stigma Bundle -->
+	<decomposable item_id="188053980">
+		<items chance="4.50">
+			<item id="140001123" />
+		</items>
+		<items chance="14.00">
+			<item id="140001121" />
+		</items>
+		<items chance="9.50">
+			<item id="140001124" />
+		</items>
+		<items chance="13.00">
+			<item id="140001125" />
+		</items>
+		<items chance="5.50">
+			<item id="140001122" />
+		</items>
+		<items chance="3.50">
+			<item id="140001120" />
+		</items>
+		<items chance="1.80">
+			<item id="140001129" />
+		</items>
+		<items chance="2.70">
+			<item id="140001127" />
+		</items>
+		<items chance="5.40">
+			<item id="140001126" />
+		</items>
+		<items chance="6.30">
+			<item id="140001114" />
+		</items>
+		<items chance="5.40">
+			<item id="140001132" />
+		</items>
+		<items chance="3.00">
+			<item id="140001131" />
+		</items>
+		<items chance="2.70">
+			<item id="140001133" />
+		</items>
+		<items chance="1.80">
+			<item id="140001128" />
+		</items>
+		<items chance="0.90">
+			<item id="140001130" />
+		</items>
+		<items chance="16.00">
+			<item id="140001135" />
+		</items>
+		<items chance="4.00">
+			<item id="140001134" />
+		</items>
+	</decomposable><!-- Templar Stigma Bundle -->
+	<decomposable item_id="188053981">
+		<items chance="4.50">
+			<item id="140001137" />
+		</items>
+		<items chance="14.00">
+			<item id="140001141" />
+		</items>
+		<items chance="9.50">
+			<item id="140001140" />
+		</items>
+		<items chance="13.00">
+			<item id="140001136" />
+		</items>
+		<items chance="5.50">
+			<item id="140001138" />
+		</items>
+		<items chance="3.50">
+			<item id="140001139" />
+		</items>
+		<items chance="1.80">
+			<item id="140001148" />
+		</items>
+		<items chance="2.70">
+			<item id="140001149" />
+		</items>
+		<items chance="5.40">
+			<item id="140001150" />
+		</items>
+		<items chance="6.30">
+			<item id="140001147" />
+		</items>
+		<items chance="5.40">
+			<item id="140001146" />
+		</items>
+		<items chance="3.00">
+			<item id="140001142" />
+		</items>
+		<items chance="2.70">
+			<item id="140001144" />
+		</items>
+		<items chance="1.80">
+			<item id="140001145" />
+		</items>
+		<items chance="0.90">
+			<item id="140001143" />
+		</items>
+		<items chance="16.00">
+			<item id="140001151" />
+		</items>
+		<items chance="4.00">
+			<item id="140001152" />
+		</items>
+	</decomposable><!-- Assassin Stigma Bundle -->
+	<decomposable item_id="188053982">
+		<items chance="4.50">
+			<item id="140001155" />
+		</items>
+		<items chance="14.00">
+			<item id="140001153" />
+		</items>
+		<items chance="9.50">
+			<item id="140001157" />
+		</items>
+		<items chance="13.00">
+			<item id="140001158" />
+		</items>
+		<items chance="5.50">
+			<item id="140001156" />
+		</items>
+		<items chance="3.50">
+			<item id="140001154" />
+		</items>
+		<items chance="1.80">
+			<item id="140001165" race="ELYOS" />
+			<item id="140001166" race="ASMODIANS" />
+		</items>
+		<items chance="2.70">
+			<item id="140001160" race="ELYOS" />
+			<item id="140001161" race="ASMODIANS" />
+		</items>
+		<items chance="5.40">
+			<item id="140001169" race="ELYOS" />
+			<item id="140001170" race="ASMODIANS" />
+		</items>
+		<items chance="6.30">
+			<item id="140001171" />
+		</items>
+		<items chance="5.40">
+			<item id="140001163" race="ELYOS" />
+			<item id="140001164" race="ASMODIANS" />
+		</items>
+		<items chance="3.00">
+			<item id="140001162" />
+		</items>
+		<items chance="2.70">
+			<item id="140001168" />
+		</items>
+		<items chance="1.80">
+			<item id="140001167" />
+		</items>
+		<items chance="0.90">
+			<item id="140001159" />
+		</items>
+		<items chance="16.00">
+			<item id="140001172" />
+		</items>
+		<items chance="4.00">
+			<item id="140001173" />
+		</items>
+	</decomposable><!-- Ranger Stigma Bundle -->
+	<decomposable item_id="188053983">
+		<items chance="4.50">
+			<item id="140001181" />
+		</items>
+		<items chance="14.00">
+			<item id="140001184" race="ELYOS" />
+			<item id="140001185" race="ASMODIANS" />
+		</items>
+		<items chance="9.50">
+			<item id="140001177" />
+		</items>
+		<items chance="13.00">
+			<item id="140001176" />
+		</items>
+		<items chance="5.50">
+			<item id="140001174" />
+		</items>
+		<items chance="3.50">
+			<item id="140001178" />
+		</items>
+		<items chance="1.80">
+			<item id="140001188" />
+		</items>
+		<items chance="2.70">
+			<item id="140001190" />
+		</items>
+		<items chance="5.40">
+			<item id="140001182" race="ELYOS" />
+			<item id="140001183" race="ASMODIANS" />
+		</items>
+		<items chance="6.30">
+			<item id="140001187" />
+		</items>
+		<items chance="5.40">
+			<item id="140001189" />
+		</items>
+		<items chance="3.00">
+			<item id="140001179" />
+		</items>
+		<items chance="2.70">
+			<item id="140001175" />
+		</items>
+		<items chance="1.80">
+			<item id="140001186" />
+		</items>
+		<items chance="0.90">
+			<item id="140001180" />
+		</items>
+		<items chance="16.00">
+			<item id="140001191" />
+		</items>
+		<items chance="4.00">
+			<item id="140001192" />
+		</items>
+	</decomposable><!-- Sorcerer Stigma Bundle -->
+	<decomposable item_id="188053984">
+		<items chance="4.50">
+			<item id="140001196" />
+		</items>
+		<items chance="14.00">
+			<item id="140001197" race="ELYOS" />
+			<item id="140001198" race="ASMODIANS" />
+		</items>
+		<items chance="9.50">
+			<item id="140001193" />
+		</items>
+		<items chance="13.00">
+			<item id="140001199" />
+		</items>
+		<items chance="5.50">
+			<item id="140001195" />
+		</items>
+		<items chance="3.50">
+			<item id="140001194" />
+		</items>
+		<items chance="1.80">
+			<item id="140001207" />
+		</items>
+		<items chance="2.70">
+			<item id="140001208" />
+		</items>
+		<items chance="5.40">
+			<item id="140001205" />
+		</items>
+		<items chance="6.30">
+			<item id="140001203" />
+		</items>
+		<items chance="5.40">
+			<item id="140001201" />
+		</items>
+		<items chance="3.00">
+			<item id="140001206" />
+		</items>
+		<items chance="2.70">
+			<item id="140001200" />
+		</items>
+		<items chance="1.80">
+			<item id="140001202" />
+		</items>
+		<items chance="0.90">
+			<item id="140001204" />
+		</items>
+		<items chance="16.00">
+			<item id="140001210" />
+		</items>
+		<items chance="4.00">
+			<item id="140001209" />
+		</items>
+	</decomposable><!-- Spiritmaster Stigma Bundle -->
+	<decomposable item_id="188053985">
+		<items chance="4.50">
+			<item id="140001228" />
+		</items>
+		<items chance="14.00">
+			<item id="140001229" />
+		</items>
+		<items chance="9.50">
+			<item id="140001230" race="ELYOS" />
+			<item id="140001231" race="ASMODIANS" />
+		</items>
+		<items chance="13.00">
+			<item id="140001234" race="ELYOS" />
+			<item id="140001235" race="ASMODIANS" />
+		</items>
+		<items chance="5.50">
+			<item id="140001232" />
+		</items>
+		<items chance="3.50">
+			<item id="140001233" />
+		</items>
+		<items chance="1.80">
+			<item id="140001242" />
+		</items>
+		<items chance="2.70">
+			<item id="140001243" />
+		</items>
+		<items chance="5.40">
+			<item id="140001239" />
+		</items>
+		<items chance="6.30">
+			<item id="140001240" />
+		</items>
+		<items chance="5.40">
+			<item id="140001238" />
+		</items>
+		<items chance="3.00">
+			<item id="140001237" />
+		</items>
+		<items chance="2.70">
+			<item id="140001241" />
+		</items>
+		<items chance="1.80">
+			<item id="140001236" />
+		</items>
+		<items chance="0.90">
+			<item id="140001244" />
+		</items>
+		<items chance="16.00">
+			<item id="140001245" />
+		</items>
+		<items chance="4.00">
+			<item id="140001246" />
+		</items>
+	</decomposable><!-- Cleric Stigma Bundle -->
+	<decomposable item_id="188053986">
+		<items chance="4.50">
+			<item id="140001215" />
+		</items>
+		<items chance="14.00">
+			<item id="140001213" />
+		</items>
+		<items chance="9.50">
+			<item id="140001216" />
+		</items>
+		<items chance="13.00">
+			<item id="140001214" />
+		</items>
+		<items chance="5.50">
+			<item id="140001212" />
+		</items>
+		<items chance="3.50">
+			<item id="140001211" />
+		</items>
+		<items chance="1.80">
+			<item id="140001222" />
+		</items>
+		<items chance="2.70">
+			<item id="140001221" />
+		</items>
+		<items chance="5.40">
+			<item id="140001223" />
+		</items>
+		<items chance="6.30">
+			<item id="140001217" />
+		</items>
+		<items chance="5.40">
+			<item id="140001224" />
+		</items>
+		<items chance="3.00">
+			<item id="140001220" />
+		</items>
+		<items chance="2.70">
+			<item id="140001225" />
+		</items>
+		<items chance="1.80">
+			<item id="140001219" />
+		</items>
+		<items chance="0.90">
+			<item id="140001218" />
+		</items>
+		<items chance="16.00">
+			<item id="140001227" />
+		</items>
+		<items chance="4.00">
+			<item id="140001226" />
+		</items>
+	</decomposable><!-- Chanter Stigma Bundle -->
+	<decomposable item_id="188053987">
+		<items chance="4.50">
+			<item id="140001251" />
+		</items>
+		<items chance="14.00">
+			<item id="140001248" />
+		</items>
+		<items chance="9.50">
+			<item id="140001249" />
+		</items>
+		<items chance="13.00">
+			<item id="140001247" />
+		</items>
+		<items chance="5.50">
+			<item id="140001252" />
+		</items>
+		<items chance="3.50">
+			<item id="140001250" />
+		</items>
+		<items chance="1.80">
+			<item id="140001254" />
+		</items>
+		<items chance="2.70">
+			<item id="140001258" />
+		</items>
+		<items chance="5.40">
+			<item id="140001261" />
+		</items>
+		<items chance="6.30">
+			<item id="140001256" />
+		</items>
+		<items chance="5.40">
+			<item id="140001257" />
+		</items>
+		<items chance="3.00">
+			<item id="140001253" />
+		</items>
+		<items chance="2.70">
+			<item id="140001260" />
+		</items>
+		<items chance="1.80">
+			<item id="140001259" />
+		</items>
+		<items chance="0.90">
+			<item id="140001255" />
+		</items>
+		<items chance="16.00">
+			<item id="140001263" />
+		</items>
+		<items chance="4.00">
+			<item id="140001262" />
+		</items>
+	</decomposable><!-- Gunslinger Stigma Bundle -->
+	<decomposable item_id="188053988">
+		<items chance="4.50">
+			<item id="140001269" />
+		</items>
+		<items chance="14.00">
+			<item id="140001267" />
+		</items>
+		<items chance="9.50">
+			<item id="140001268" />
+		</items>
+		<items chance="13.00">
+			<item id="140001265" />
+		</items>
+		<items chance="5.50">
+			<item id="140001264" />
+		</items>
+		<items chance="3.50">
+			<item id="140001266" />
+		</items>
+		<items chance="1.80">
+			<item id="140001278" />
+		</items>
+		<items chance="2.70">
+			<item id="140001273" />
+		</items>
+		<items chance="5.40">
+			<item id="140001276" />
+		</items>
+		<items chance="6.30">
+			<item id="140001275" />
+		</items>
+		<items chance="5.40">
+			<item id="140001277" />
+		</items>
+		<items chance="3.00">
+			<item id="140001270" />
+		</items>
+		<items chance="2.70">
+			<item id="140001271" />
+		</items>
+		<items chance="1.80">
+			<item id="140001274" />
+		</items>
+		<items chance="0.90">
+			<item id="140001272" />
+		</items>
+		<items chance="16.00">
+			<item id="140001280" />
+		</items>
+		<items chance="4.00">
+			<item id="140001279" />
+		</items>
+	</decomposable><!-- Aethertech Stigma Bundle -->
+	<decomposable item_id="188053989">
+		<items chance="4.50">
+			<item id="140001285" />
+		</items>
+		<items chance="14.00">
+			<item id="140001281" />
+		</items>
+		<items chance="9.50">
+			<item id="140001283" />
+		</items>
+		<items chance="13.00">
+			<item id="140001286" />
+		</items>
+		<items chance="5.50">
+			<item id="140001282" />
+		</items>
+		<items chance="3.50">
+			<item id="140001284" />
+		</items>
+		<items chance="1.80">
+			<item id="140001290" />
+		</items>
+		<items chance="2.70">
+			<item id="140001287" />
+		</items>
+		<items chance="5.40">
+			<item id="140001293" />
+		</items>
+		<items chance="6.30">
+			<item id="140001295" />
+		</items>
+		<items chance="5.40">
+			<item id="140001292" />
+		</items>
+		<items chance="3.00">
+			<item id="140001289" />
+		</items>
+		<items chance="2.70">
+			<item id="140001288" />
+		</items>
+		<items chance="1.80">
+			<item id="140001294" />
+		</items>
+		<items chance="0.90">
+			<item id="140001291" />
+		</items>
+		<items chance="16.00">
+			<item id="140001297" />
+		</items>
+		<items chance="4.00">
+			<item id="140001296" />
+		</items>
+	</decomposable><!-- Songweaver Stigma Bundle -->
 	<decomposable item_id="188053990" /><!-- Secret Document -->
 	<decomposable item_id="188053994" /><!-- Kromede's Key Bundle -->
 	<decomposable item_id="188053995" selectable="true"><!-- Emperor Trillirunerk's Feather Box -->
