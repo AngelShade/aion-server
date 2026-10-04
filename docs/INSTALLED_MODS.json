@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T20:21:06.321487+00:00",
+  "checkedAt": "2026-10-04T20:49:31.048743+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "checks": {
@@ -288,6 +288,7 @@
     "backups\\playerbots-recruitment-20261004-220541-625450\\manifest.json",
     "backups\\playerbots-recruitment-20261004-224922-627052\\manifest.json",
     "backups\\playerbots-recruitment-20261004-232048-163778\\manifest.json",
+    "backups\\playerbots-recruitment-20261004-234841-695964\\manifest.json",
     "backups\\playerbots-ui-20261004-025259-127970\\manifest.json",
     "backups\\poeta-journey-20261001-prepare\\manifest.json",
     "backups\\poeta-journey-fix-v2-20261001-193802\\manifest.json",
@@ -332,8 +333,8 @@
   "serverClassOverrides": [
     {
       "path": "libs/playerbot-recruitment-fix.jar",
-      "sha256": "c14e843ed5c47dfac22da04e04dfa2e803ccba1b19989ead78c76a1ce7fe9c3a",
-      "receipt": "backups\\playerbots-recruitment-20261004-232048-163778\\manifest.json",
+      "sha256": "4d17853599c40b60ec215f02442d90edf66d288640e320c6feec23f98dd7607f",
+      "receipt": "backups\\playerbots-recruitment-20261004-234841-695964\\manifest.json",
       "changedMethods": [
         "private void ensureOwner(com.aionemu.gameserver.model.gameobjects.player.Player);",
         "public static boolean allowsTarget(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Creature);",
@@ -582,7 +583,11 @@
         "com/aionemu/gameserver/services/playerbot/PlayerBotSpacing.class: static com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point formation(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point);",
         "com/aionemu/gameserver/dao/InventoryDAO.class: public static java.util.List<com.aionemu.gameserver.model.gameobjects.Item> storeCompanionInventory(java.sql.Connection, com.aionemu.gameserver.model.gameobjects.player.Player) throws java.sql.SQLException;",
         "com/aionemu/gameserver/services/playerbot/PlayerBotCoordination.class: static com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point tankFacing(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Npc, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>);",
-        "com/aionemu/gameserver/services/playerbot/PlayerBotCoordination.class: static com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point spread(com.aionemu.gameserver.model.gameobjects.player.Player, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>, java.util.List<com.aionemu.gameserver.model.gameobjects.Npc>);"
+        "com/aionemu/gameserver/services/playerbot/PlayerBotCoordination.class: static com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point spread(com.aionemu.gameserver.model.gameobjects.player.Player, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>, java.util.List<com.aionemu.gameserver.model.gameobjects.Npc>);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: private double priority(com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry, com.aionemu.gameserver.model.gameobjects.Creature, boolean, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: synchronized boolean tick();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotOffense.class: static double routine(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry, com.aionemu.gameserver.model.gameobjects.Creature, java.util.List<com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry>, double);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotCombatBuffs.class: static boolean useful(com.aionemu.gameserver.model.PlayerClass, com.aionemu.gameserver.services.playerbot.PlayerBotRules$Role, com.aionemu.gameserver.skillengine.model.SkillTemplate, double, double);"
       ]
     }
   ],

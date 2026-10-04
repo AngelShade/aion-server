@@ -579,3 +579,22 @@ All 44 settings, 31 client hashes, base/launcher/media and 15 mod checks survive
 Inventory: 70 client/79 server receipts. No restart, client replacement, forced
 tick/cast/movement or DB/ID writes occurred. Next update agent revision >44.
 See `PLAYERBOTS_TANK_POSITION_20261004.md`; real boss fight PB-VAL-005 stays open.
+
+## Sorcerer class-strategy slice installed (4 October 2026)
+
+Latest cumulative receipt: `backups/playerbots-recruitment-20261004-234841-695964`,
+retaining tank `232048-163778`, custody, spacing, engine and all earlier mods.
+PB-PORT-005A maps pinned Mage ordering to learned native Sorcerer/Mage single-target
+chains, upkeep, fillers/fallbacks, mana and caster boosts. Encounter precedence,
+native cast/cost/cooldown/stack gates, orders and existing builds remain intact.
+User will perform in-game testing; full class/upstream parity remains unfinished.
+
+Four methods/three existing classes, one helper, 133 earlier entries byte-identical.
+Agent 45 preloaded originals; five companions/one human retained. Full source/
+offline suite and 54 focused production checks pass; 193 observed loaded methods
+and 163 effective source methods match (51 source hashes). All 46 settings,
+31 client hashes, base/launcher/media and 15 mod checks survive (70 client/80
+server receipts). No restart/client replacement or forced native tick/cast/save.
+See `PLAYERBOTS_SORCERER_STRATEGY_20261004.md`. Next slice 005B Spiritmaster
+single-target/pet strategy; native/client acceptance and all remaining tracks
+stay open. Next attach update revision >45.

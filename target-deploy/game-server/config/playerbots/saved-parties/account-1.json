@@ -4,13 +4,12 @@
 		106230,
 		106468,
 		106596,
-		190878,
-		191044
+		190878
 	],
 	"account":1,
 	"presets":[
 		{
-			"id":"8d12c6d583f042c68083914f1fbf7cd1",
+			"id":"e7e00d7e167f4040b420c876bb17ff65",
 			"members":[
 				{
 					"id":106468,
@@ -24,13 +23,6 @@
 					"name":"Tanku",
 					"order":"FOLLOW",
 					"role":"TANK",
-					"temporary":true
-				},
-				{
-					"id":191044,
-					"name":"RangeDps",
-					"order":"FOLLOW",
-					"role":"RANGED",
 					"temporary":true
 				},
 				{
@@ -48,7 +40,7 @@
 					"temporary":true
 				}
 			],
-			"name":"Dungeon"
+			"name":"PartyGood"
 		}
 	]
 }
