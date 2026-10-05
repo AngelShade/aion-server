@@ -5,9 +5,9 @@ requires later installations to retain earlier mods, including their recovery
 records. Refresh evidence before installation; do not infer installation from a
 source commit, an old staging package, or a backup directory alone.
 
-Checked on 4 October 2026 against the actual client and server deployment.
-`INSTALLED_MODS.json` records 31 current file hashes, 15 native/layout/recovery
-checks, 70 client receipts, 72 server receipts and selected deployed settings.
+Checked on 5 October 2026 against the actual client and server deployment.
+`INSTALLED_MODS.json` records 31 current file hashes, 16 native/layout/recovery
+checks, 70 client receipts, 83 server receipts and selected deployed settings.
 These checks establish presence/preservation, not acceptance of every game flow.
 
 | Feature | Current evidence / status | Preserve and remaining checks |
@@ -34,6 +34,8 @@ These checks establish presence/preservation, not acceptance of every game flow.
 | Legacy home-zone capture camps | Installed across all eight Eltnen/Heiron/Morheim/Beluslan camps: 47 height repairs, four exact ordinary-spawn overlaps removed, native specific guard hostility, captain-directed raids and NPC capture attribution. | Preserve `LegacyCampBattle`, three transplanted methods and five static XML repairs. All 166 native checks and 15 mod checks pass; full live raid/capture and client appearance remain pending. See `LEGACY_CAMP_REPAIR_20261004.md`. |
 | Client-sourced motion/hit timing | Motion repair deployment backup remains; companion installer preserved the deployed projectile timing method. | Preserve actor-specific records rather than suppressing warnings. Four assetless test motions remain unresolved; see `MOTION_TIMES.md`. |
 | Atomic AI reload, Idian Depths portals and Kromede | Installed live: complete registry publication, asynchronous reload, resilient portal rotations, 50/50 Fire Temple variant roll and completion-driven shared encounter/traps. | Preserve cumulative override plus the deployed Reload/instance scripts. Native checks pass; a fresh player-controlled Fire Temple run remains pending. See `AI_RELOAD_KROMEDE_20261004.md`. Final receipt `backups/playerbots-recruitment-20261004-102954-276296`; core rollback receipt `...102535-101269`. |
+| Night Saendukal encounter | Source and target-deploy data staged: 21:00–04:00 spawn, giant-boss exclusion, level-31 boss skills, healing Shaman, guard-gated chest and named reward pools. GameServer is stopped; loaded-data and in-game acceptance have not run. | Preserve the 50% retreat and throne guard wave; the chest waits for all spawned guards and has four independent reward groups. No restart or live attach was performed. See `SAENDUKAL_NODIE_20261005.md`. |
+| Giant Saendukal Strong Protection | Screenshot plus prior live inspection exposed stale `16415`/`16879` probabilities at 25%; the deployed core JAR lacked hit-count handling. A method-only 10-hit overlay and NPC probabilities 0 are installed on disk. GameServer remains stopped, so the update is not loaded. | Preserve the one-time 25% scripted cast, weak-map hit counter, installed class layout, and all 142 earlier override entries. In-game expiry and no-random-recast checks remain pending. Receipt `backups/saendukal-strong-protection-20261005-025825`; see `SAENDUKAL_STRONG_PROTECTION_20261005.md`. |
 | Aetherfall login branding | Existing English login notice and client archives retained. | Preserve the announcement/server labels together with Remember Login. |
 | Player Companions | Server/client installed; roster/schema, owned-offline recruitment, both generated models, PvE AI and dedicated panel are present. Native menu/signatures, server startup and public route checks passed. Live recruitment fix removes PvP/location/flight blockers and uses native combat time. | Preserve the cumulative `libs/playerbot-recruitment-fix.jar` override and its first position in the server launcher's classpath, including quest/care/gear and creation fixes. **Full system unfinished:** optimized class rotations, world quest/travel planning, broader encounter/PvP strategies, alliance topology and actual signed-in gameplay/menu/pet validation. See `PLAYERBOTS.md`. |
 | Temporary Bot creation and maintenance | Dedicated-roster generated actors now match owner level and receive native class/role gear, skills and Stigmas, with automatic maintenance and tier progression. Historical level-1 choice is superseded in the UI. Owned account characters remain separate. | Latest receipt `backups/playerbots-recruitment-20261004-080311-450862`; native 210 build/tier cases, 16 actual maintenance ticks and 34 unchanged owned-alt fingerprints pass. Deferred recipe and strict creation initialization repairs are retained. Persisted creation/recruitment/re-login remain actual game acceptance checks. |
@@ -598,3 +600,34 @@ server receipts). No restart/client replacement or forced native tick/cast/save.
 See `PLAYERBOTS_SORCERER_STRATEGY_20261004.md`. Next slice 005B Spiritmaster
 single-target/pet strategy; native/client acceptance and all remaining tracks
 stay open. Next attach update revision >45.
+
+## Native bot owner gifts installed (5 October 2026)
+
+Latest cumulative continuation: `backups/playerbots-recruitment-20261005-042546-945113`
+installs PB-REPAIR-SETTINGS-001 care-file transient-lock retries, retaining owner
+gifts `005644-110252` plus receipted Saendukal overlay `025825` and all earlier
+mods. One method/new helper, agent 49, five companions/one human preserved; no
+restart/client replacement/forced quest/save. Further tests stopped at user's
+request; user gameplay/persistence acceptance remains. See
+`PLAYERBOTS_SETTINGS_FILES_20261005.md`; next attach revision >49.
+
+PB-SCOPE-003A / PB-VAL-010: main receipt `004941-367262`, current cumulative
+`005644-110252`. Owners give items/Kinah to active owned alts or Temporary Bots
+through the native trade window. Bots lock/complete their side and evaluate only
+donated gear for legal class/role upgrades, serializing native binding/identification.
+Normal item rights and custody persist; outgoing bot offers/world trading remain
+partial. This explicit donation exception does not enable general alt auto-gear
+or modify level/class/build/skills/Stigmas.
+
+Full source/offline suite and 56 final production boundary/native-window tests
+pass. Fresh agents 47/48 preserve ten companions/two humans, schemas and rollback;
+no restart/client replacement/forced live trade, movement, cast, save or DB/ID tests.
+All 218 methods in eight final observed definitions match disk; source audit
+checks 51 pinned hashes/190 methods. All 15 mod checks and 31 client hashes pass;
+base/launcher/media/prior mods/preferences survive. Current inventory records
+70 client/82 server receipts. Actual native trade/persistence/client acceptance
+stays with the user, PB-VAL-010; the full port remains unfinished.
+
+See [trade behavior and validation](PLAYERBOTS_TRADING_20261005.md). Existing
+005A stays installed; next companion class slice remains 005B Spiritmaster.
+Economy, outgoing trading and world/invitation tracks retain independent scope.

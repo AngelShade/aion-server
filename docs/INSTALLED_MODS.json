@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T20:49:31.048743+00:00",
+  "checkedAt": "2026-10-05T01:26:58.952386+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "checks": {
@@ -17,6 +17,7 @@
     "playerbot_party_bar": true,
     "rejected_afk_extension_remains_removed": true,
     "playerbot_service_deployed": true,
+    "saendukal_strong_protection_classes": true,
     "recruitment_override_and_launcher": true
   },
   "clientFiles": [
@@ -138,7 +139,7 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "fb30679b1fb8dc4aee073e7c8b45a5071da30d75f7f3e0c1517f6abcb98c411a"
+      "sha256": "722108fd6ddaaa46066758e6e0a6df107480826a5d3e9c5eb3ad72085b78bf12"
     },
     {
       "path": "SystemOptionGraphics.cfg",
@@ -289,9 +290,13 @@
     "backups\\playerbots-recruitment-20261004-224922-627052\\manifest.json",
     "backups\\playerbots-recruitment-20261004-232048-163778\\manifest.json",
     "backups\\playerbots-recruitment-20261004-234841-695964\\manifest.json",
+    "backups\\playerbots-recruitment-20261005-004941-367262\\manifest.json",
+    "backups\\playerbots-recruitment-20261005-005644-110252\\manifest.json",
+    "backups\\playerbots-recruitment-20261005-042546-945113\\manifest.json",
     "backups\\playerbots-ui-20261004-025259-127970\\manifest.json",
     "backups\\poeta-journey-20261001-prepare\\manifest.json",
     "backups\\poeta-journey-fix-v2-20261001-193802\\manifest.json",
+    "backups\\saendukal-strong-protection-20261005-025825\\manifest.json",
     "backups\\season-pass-20261003-071608-546\\manifest.json",
     "backups\\season-pass-ui-20261003-084420-152921\\manifest.json",
     "backups\\season-pass-ui-20261003-085323-876510\\manifest.json",
@@ -333,8 +338,8 @@
   "serverClassOverrides": [
     {
       "path": "libs/playerbot-recruitment-fix.jar",
-      "sha256": "4d17853599c40b60ec215f02442d90edf66d288640e320c6feec23f98dd7607f",
-      "receipt": "backups\\playerbots-recruitment-20261004-234841-695964\\manifest.json",
+      "sha256": "23312b53b9807e5e114ca0afe7c005697fc87653a5de768bb2b06289f525b019",
+      "receipt": "backups\\playerbots-recruitment-20261005-042546-945113\\manifest.json",
       "changedMethods": [
         "private void ensureOwner(com.aionemu.gameserver.model.gameobjects.player.Player);",
         "public static boolean allowsTarget(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Creature);",
@@ -587,7 +592,20 @@
         "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: private double priority(com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry, com.aionemu.gameserver.model.gameobjects.Creature, boolean, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>);",
         "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: synchronized boolean tick();",
         "com/aionemu/gameserver/services/playerbot/PlayerBotOffense.class: static double routine(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry, com.aionemu.gameserver.model.gameobjects.Creature, java.util.List<com.aionemu.gameserver.services.playerbot.PlayerBotSkills$Entry>, double);",
-        "com/aionemu/gameserver/services/playerbot/PlayerBotCombatBuffs.class: static boolean useful(com.aionemu.gameserver.model.PlayerClass, com.aionemu.gameserver.services.playerbot.PlayerBotRules$Role, com.aionemu.gameserver.skillengine.model.SkillTemplate, double, double);"
+        "com/aionemu/gameserver/services/playerbot/PlayerBotCombatBuffs.class: static boolean useful(com.aionemu.gameserver.model.PlayerClass, com.aionemu.gameserver.services.playerbot.PlayerBotRules$Role, com.aionemu.gameserver.skillengine.model.SkillTemplate, double, double);",
+        "com/aionemu/gameserver/services/ExchangeService.class: public void cancelExchange(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/ExchangeService.class: private boolean validateParticipants(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/ExchangeService.class: public void lockExchange(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/ExchangeService.class: public void confirmExchange(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/ExchangeService.class: public void addKinah(com.aionemu.gameserver.model.gameobjects.player.Player, long);",
+        "com/aionemu/gameserver/services/ExchangeService.class: public void addItem(com.aionemu.gameserver.model.gameobjects.player.Player, int, long);",
+        "com/aionemu/gameserver/network/aion/clientpackets/CM_EXCHANGE_REQUEST.class: protected void runImpl();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: synchronized boolean tick();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: void markClosing();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: public synchronized void equip(int, com.aionemu.gameserver.model.items.ItemSlot);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTrade.class: static void equip(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTrade.class: static boolean tick(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotQuestSync$State.class: void save();"
       ]
     }
   ],
