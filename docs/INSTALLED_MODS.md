@@ -5,9 +5,9 @@ requires later installations to retain earlier mods, including their recovery
 records. Refresh evidence before installation; do not infer installation from a
 source commit, an old staging package, or a backup directory alone.
 
-Checked on 5 October 2026 against the actual client and server deployment.
+Checked on 7 October 2026 against the actual client and server deployment.
 `INSTALLED_MODS.json` records 31 current file hashes, 16 native/layout/recovery
-checks, 70 client receipts, 83 server receipts and selected deployed settings.
+checks, 70 client receipts, 86 server receipts and selected deployed settings.
 These checks establish presence/preservation, not acceptance of every game flow.
 
 | Feature | Current evidence / status | Preserve and remaining checks |
@@ -41,6 +41,7 @@ These checks establish presence/preservation, not acceptance of every game flow.
 | Temporary Bot creation and maintenance | Dedicated-roster generated actors now match owner level and receive native class/role gear, skills and Stigmas, with automatic maintenance and tier progression. Historical level-1 choice is superseded in the UI. Owned account characters remain separate. | Latest receipt `backups/playerbots-recruitment-20261004-080311-450862`; native 210 build/tier cases, 16 actual maintenance ticks and 34 unchanged owned-alt fingerprints pass. Deferred recipe and strict creation initialization repairs are retained. Persisted creation/recruitment/re-login remain actual game acceptance checks. |
 | Companion party command bar | Layout-2 installed on 4 October after the first layout's clipping was confirmed: native movable compact Attack/Follow/Stay bar, expandable Guard/Passive/Companions controls, hide-to-icon at the same movable anchor, saved position/mode and `/botbar`. | Retain `PlayerBotBar.lua/xml` and TOC entries in the signed addon, plus the native bridge mailbox. All commands use `.bot ... all`. Game.dll, UI archives, recovery baselines and server override unchanged. Real Lua and 60 native coordinate/title-hit checks passed; corrected appearance, dragging, bot orders and combined pet/menu behavior still require reopening Aion and in-game acceptance. |
 | Companion management window | Installed tabbed Party/Roster/Create/Party quests layout with a compact party selector and one companion detail panel. Overview, Equipment, Quests, Care and Activity stay inside the same window. Roster search/filter/sort uses 12 entries per page; offline inspection/recruitment and unsaved care drafts are retained. | Three server media files only; receipt `backups/playerbots-ui-20261004-025259-127970`. Native Awesomium checks pass at 1280×900, 900×700 and 390×844 with 103 roster entries and 18 authenticated fixture actions. Client files, server JARs, cumulative override, launcher and configuration hashes retained. Server was stopped during installation; live HTTP/in-game acceptance remains pending startup and reopening the window. |
+| Companion outfit transmog | **Staged/source-only**, reviewed/corrected 7 October as PB-CUSTOM-APPEARANCE-001. The Equipment tab applies a permanent compatible cube appearance to combat gear, restores the original look, and preserves it through upgrades. Only statless costumes are excluded from auto-gear; real clothing stats and native pending-item persistence survive. | Corrected package `target/playerbots-appearance/package-reviewed-20261007` supersedes package-v2. Full compile/16 effective-package checks pass; 144 prior entries retained. Server/client stay off; no attach or deployment. User in-game acceptance pending. See `PLAYERBOTS_APPEARANCE_20261006.md`. |
 | Quest marker/name beside hovered mob tooltip | `D:/Proiecte/Project Restructure/Aion Quest Tooltip` currently contains only a builder and `QuestTooltipProbe.pak`; a finished installed implementation is not established. | Pending work. Preserve the intended contextual placement; do not report the prototype as a working game mod. |
 | Browser modernization | Read-only ABI investigation exists; installed Awesomium remains. | Ultralight adapter/source integration is unfinished. Do not overwrite the browser DLL without preserving icons, previews/auth and actual callbacks. |
 | Shared webpage flash | Investigation exists; no confirmed correction installed. | The browser probe was removed by request; `AionBrowserProbe.dll` remains absent. Do not silently reinstall it. |
@@ -631,3 +632,55 @@ stays with the user, PB-VAL-010; the full port remains unfinished.
 See [trade behavior and validation](PLAYERBOTS_TRADING_20261005.md). Existing
 005A stays installed; next companion class slice remains 005B Spiritmaster.
 Economy, outgoing trading and world/invitation tracks retain independent scope.
+
+## PB-REPAIR-SETTINGS-002 — installed offline 7 October 2026
+
+The current care retry is confirmed retained; the pasted Tancul traceback matches
+the older 04:15:05 incident. Current logs show the same Windows sharing denial
+from gear provenance saves for MagicDps/LeMuse. GearPolicy.State.save now uses
+the existing bounded atomic-replacement retry. One method changed; 146 other
+cumulative entries remain byte-identical. No settings/build/item/quest policy
+changes or error suppression. Persistent locks still report failure; the locking
+process is not identified.
+
+Current receipt `backups/playerbots-recruitment-20261007-081522-429924` retains
+`042546-945113`, gifts, Sorcerer, tank, custody, native shield and every earlier
+mod. Full offline source build and 36 focused source/effective/Windows private-file
+checks pass. Server/client remained off; no startup/restart/attach or forced native
+gameplay/DB/ID tests. User actual care/gear/supplies acceptance is pending.
+See [settings diagnosis and installation](PLAYERBOTS_SETTINGS_FILES_20261007.md).
+
+Next broader slice stays PB-PORT-005B Spiritmaster; independent scope tracks remain
+open. Appearance and follow recovery remain source/staged only; earlier packages
+must be restaged against the new cumulative receipt before install. Do not copy an
+older staging JAR over this repair. All earlier unfinished port/repair work survives.
+
+## PB-SCOPE-012A native metadata — installed offline 7 October 2026
+
+Care/gear state now uses native MetadataDAO/cache/checkpoints, mapped from pinned
+PlayerbotRepository.cpp and PlayerbotsDatabase.cpp. AI/settings saves queue values
+in memory; dirty metadata commits with native inventory/progress, including the
+pre-trade checkpoint. Failure retains dirty state for periodic checkpoint retry.
+Supply provenance marks the native cube dirty. Owned-alt builds and all existing
+preferences, consent, quest witnesses and protected-item values are preserved.
+
+After the user opened the database, the guarded installer verified native ownership,
+created the metadata table and committed **32 imported care/gear rows**. A separate
+read-only connection verified all 32 committed values exactly match retained legacy
+files. Eight existing methods/six definitions changed, six new classes were added,
+and 141 earlier JAR entries remain byte-identical. Full offline compile and 35
+production checks pass against the installed package; 16 mod checks/31 client hashes
+pass, with all 93 settings/media files unchanged. Inventory records 70 client/86
+server historical receipts. No GameServer/client startup, restart or attach occurred.
+
+Current recovery receipt is external:
+`D:/Proiecte/Project Restructure/Aion Development Workspace/archives/server/game-server/backups/playerbots-recruitment-20261007-124827-848789`.
+It retains `081522-429924` and every earlier installed mod. Override SHA-256:
+`f49bd48bcfd6a0a7eabae4a8fe2213791dba7dcdab1cb1945d3a900451cd1a3e`.
+
+See [native metadata port](PLAYERBOTS_METADATA_20261007.md). PB-VAL-011 migration and
+disk installation are complete; actual care/gear/supplies/trade checkpoints,
+failure/retry and dismissal/resummon/restart gameplay acceptance remain the user's
+tests. PB-PORT-005B Spiritmaster is the next separate class implementation. Other
+repository namespaces and the full port remain partial. Appearance/follow packages
+remain source/staged only and must be restaged against this receipt before install.

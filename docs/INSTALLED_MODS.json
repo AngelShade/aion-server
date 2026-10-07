@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T01:26:58.952386+00:00",
+  "checkedAt": "2026-10-07T09:49:21.537864+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "checks": {
@@ -139,11 +139,11 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "722108fd6ddaaa46066758e6e0a6df107480826a5d3e9c5eb3ad72085b78bf12"
+      "sha256": "86bba1e17f50500732d4a6fef0f0b672f300ef463de6ae4383ed5289e5966f4a"
     },
     {
       "path": "SystemOptionGraphics.cfg",
-      "sha256": "f132939e19c7e43958d937bed9286774f0599e2e18903f5fff7480ce7645824c"
+      "sha256": "c6d5f670a1626bfa2264a69339f67a38402a8ddda45dac54b88ee4b9beaf73d4"
     }
   ],
   "clientReceipts": [
@@ -219,6 +219,7 @@
     "TransmogMenu-backups\\signed-20261003-075713-834\\manifest.json"
   ],
   "serverReceipts": [
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-124827-848789\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -293,6 +294,7 @@
     "backups\\playerbots-recruitment-20261005-004941-367262\\manifest.json",
     "backups\\playerbots-recruitment-20261005-005644-110252\\manifest.json",
     "backups\\playerbots-recruitment-20261005-042546-945113\\manifest.json",
+    "backups\\playerbots-recruitment-20261007-081522-429924\\manifest.json",
     "backups\\playerbots-ui-20261004-025259-127970\\manifest.json",
     "backups\\poeta-journey-20261001-prepare\\manifest.json",
     "backups\\poeta-journey-fix-v2-20261001-193802\\manifest.json",
@@ -338,8 +340,8 @@
   "serverClassOverrides": [
     {
       "path": "libs/playerbot-recruitment-fix.jar",
-      "sha256": "23312b53b9807e5e114ca0afe7c005697fc87653a5de768bb2b06289f525b019",
-      "receipt": "backups\\playerbots-recruitment-20261005-042546-945113\\manifest.json",
+      "sha256": "f49bd48bcfd6a0a7eabae4a8fe2213791dba7dcdab1cb1945d3a900451cd1a3e",
+      "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-124827-848789\\manifest.json",
       "changedMethods": [
         "private void ensureOwner(com.aionemu.gameserver.model.gameobjects.player.Player);",
         "public static boolean allowsTarget(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Creature);",
@@ -605,7 +607,16 @@
         "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: public synchronized void equip(int, com.aionemu.gameserver.model.items.ItemSlot);",
         "com/aionemu/gameserver/services/playerbot/PlayerBotTrade.class: static void equip(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
         "com/aionemu/gameserver/services/playerbot/PlayerBotTrade.class: static boolean tick(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
-        "com/aionemu/gameserver/services/playerbot/PlayerBotQuestSync$State.class: void save();"
+        "com/aionemu/gameserver/services/playerbot/PlayerBotQuestSync$State.class: void save();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotGearPolicy$State.class: void save();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotQuestSync$State.class: com.aionemu.gameserver.services.playerbot.PlayerBotQuestSync$State(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotQuestSync$State.class: void save();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotGearPolicy$State.class: com.aionemu.gameserver.services.playerbot.PlayerBotGearPolicy$State(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotGearPolicy$State.class: void save();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPersistence.class: static void save(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotPersistence$Home) throws java.sql.SQLException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotService.class: private void dismiss(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTradeStore.class: static void commit(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.trade.Exchange) throws java.sql.SQLException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSupplyCatalog.class: static void record(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Item);"
       ]
     }
   ],
