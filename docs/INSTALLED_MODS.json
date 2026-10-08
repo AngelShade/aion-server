@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T09:49:21.537864+00:00",
+  "checkedAt": "2026-10-08T03:30:52.938992+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "checks": {
@@ -9,21 +9,26 @@
     "base_and_english_layouts": true,
     "remember_login_english": true,
     "season_pass_ticket_both_huds": true,
+    "native_window_queue_batching": true,
     "remember_login_and_speech_hooks": true,
     "native_icon_index_matches_items": true,
     "graphics_package_and_recovery": true,
     "cursor_tracking_and_recovery": true,
     "browser_probe_remains_removed": true,
     "playerbot_party_bar": true,
+    "remember_login_reset_and_notice_repair": true,
+    "remember_login_reset_storage_safe": true,
     "rejected_afk_extension_remains_removed": true,
     "playerbot_service_deployed": true,
     "saendukal_strong_protection_classes": true,
-    "recruitment_override_and_launcher": true
+    "recruitment_override_and_launcher": true,
+    "playerbot_bundled_interface": true
   },
+  "customWindowQueueBatchingInstalled": true,
   "clientFiles": [
     {
       "path": "bin64/Game.dll",
-      "sha256": "0890283a655ac633ff6696de157aa212551fb4131179781584836fe5b16bf7b3"
+      "sha256": "41008662f6011538cb1abf869faa671703063dfa8884fe6dfb716b66f52a99a2"
     },
     {
       "path": "bin64/crysystem.dll",
@@ -55,7 +60,7 @@
     },
     {
       "path": "bin64/AionRememberLogin.dll",
-      "sha256": "a3f5212c68a51027b7721148831b17fefd5a6ffc88c2bd41b07ed43f5da9ccb2"
+      "sha256": "9905219708c96e6f56349a0147e2b21a55a8b1740b814bb691383cee721e63f3"
     },
     {
       "path": "bin64/AionSpeechBubbles.dll",
@@ -119,15 +124,15 @@
     },
     {
       "path": "DXVK/installed.json",
-      "sha256": "ea233fe28a2e6b8223ce191f289547228634fcc02c1f1fdff43dd92c79ed8f11"
+      "sha256": "39c68324be401ac1beacff6af515256685c54eda2ed03bfdf5be6393202ac965"
     },
     {
       "path": "DXVK/graphics-menu/installed.json",
-      "sha256": "dccadf064462e5bbf578aa83941d57c7d347ee924588aae28a9d1f2389b2d5e0"
+      "sha256": "0d4e31b557e9894377dfd0048ace339c7426f63fe13709798da34ed13818302d"
     },
     {
       "path": "DXVK/graphics-menu/package/manifest.json",
-      "sha256": "9c8e18795695a1e1ffbcb69e8c142eba6594dbd4d6f0dd96aa9499e8019a0ab6"
+      "sha256": "1a5a9fa1c92853f164dcccd330030f36353a9dda3e33c951d6c6b25f8885eec5"
     },
     {
       "path": "DXVK/renderer.ini",
@@ -139,16 +144,19 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "86bba1e17f50500732d4a6fef0f0b672f300ef463de6ae4383ed5289e5966f4a"
+      "sha256": "249487a2143f1083e0284a00cb8d953478e5555b6b0ec914c2231eae79c0a08e"
     },
     {
       "path": "SystemOptionGraphics.cfg",
-      "sha256": "c6d5f670a1626bfa2264a69339f67a38402a8ddda45dac54b88ee4b9beaf73d4"
+      "sha256": "f132939e19c7e43958d937bed9286774f0599e2e18903f5fff7480ce7645824c"
     }
   ],
   "clientReceipts": [
     "BrowserFrame-backups\\graphics-tracking-20261003-102108-928277\\manifest.json",
     "BundleOpening-backups\\20261003-212651-096185\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\remember-login-return-20261007-225046-935256\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\remember-login-return-20261008-050005-613742\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\window-queue-20261007-221447-067110\\manifest.json",
     "DXVK-backups\\companions-tracking-20261004-001807-929437\\manifest.json",
     "DXVK-backups\\localized-menu-stage-20261001-065143-409\\manifest.json",
     "Journey-startup-backups\\20261003-223744-567895\\manifest.json",
@@ -219,7 +227,23 @@
     "TransmogMenu-backups\\signed-20261003-075713-834\\manifest.json"
   ],
   "serverReceipts": [
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-legacy-settings-cleanup-20261007-182907-195194\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-legacy-settings-cleanup-20261007-191828-971151\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-124827-848789\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-170333-991220\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-171732-465446\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-175949-485037\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-190312-034119\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-191742-640906\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-193213-430087\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-223400-856173\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-224940-884362\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-225401-230689\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-054444-184495\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-054856-494763\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-061243-633233\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-061841-232356\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-062930-344543\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -325,6 +349,7 @@
     "gameserver.inventory.unified": "true",
     "gameserver.warehouse.expanded": "true",
     "gameserver.playerbots.enable": "true",
+    "gameserver.playerbots.summon.enable": "true",
     "gameserver.playerbots.max_per_owner": "5",
     "gameserver.playerbots.max_active": "100",
     "gameserver.playerbots.tick_ms": "400",
@@ -340,8 +365,8 @@
   "serverClassOverrides": [
     {
       "path": "libs/playerbot-recruitment-fix.jar",
-      "sha256": "f49bd48bcfd6a0a7eabae4a8fe2213791dba7dcdab1cb1945d3a900451cd1a3e",
-      "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261007-124827-848789\\manifest.json",
+      "sha256": "f4855888ee12bea913327c8be2462835e292cb3c4f5ec5db5cd4e891221c5a27",
+      "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-recruitment-20261008-062930-344543\\manifest.json",
       "changedMethods": [
         "private void ensureOwner(com.aionemu.gameserver.model.gameobjects.player.Player);",
         "public static boolean allowsTarget(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Creature);",
@@ -616,12 +641,67 @@
         "com/aionemu/gameserver/services/playerbot/PlayerBotPersistence.class: static void save(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotPersistence$Home) throws java.sql.SQLException;",
         "com/aionemu/gameserver/services/playerbot/PlayerBotService.class: private void dismiss(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
         "com/aionemu/gameserver/services/playerbot/PlayerBotTradeStore.class: static void commit(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.trade.Exchange) throws java.sql.SQLException;",
-        "com/aionemu/gameserver/services/playerbot/PlayerBotSupplyCatalog.class: static void record(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Item);"
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSupplyCatalog.class: static void record(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.Item);",
+        "com/aionemu/gameserver/controllers/movement/PlayerBotMoveController.class: private void moveStep();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean move(float, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean approach(com.aionemu.gameserver.model.gameobjects.Creature, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPathfinder.class: static java.util.List<com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point> find(com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point, com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point, com.aionemu.gameserver.services.playerbot.PlayerBotPathfinder$Ground, int, java.util.function.BooleanSupplier);",
+        "com/aionemu/gameserver/world/geo/GeoService.class: public com.aionemu.gameserver.geoEngine.math.Vector3f findGroundMovementCollision(int, int, float, float, float, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean move(float, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean follow(com.aionemu.gameserver.model.gameobjects.player.Player, int);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotMetadata.class: public static void validate(int, int, java.lang.String, java.util.Map<java.lang.String, java.lang.String>) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPreferences.class: void save(int, int, com.aionemu.gameserver.services.playerbot.PlayerBotPreferences$Values) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPreferences.class: com.aionemu.gameserver.services.playerbot.PlayerBotPreferences$Values load(int, int, com.aionemu.gameserver.services.playerbot.PlayerBotRules$Role) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPartyBehavior$State.class: com.aionemu.gameserver.services.playerbot.PlayerBotPartyBehavior$State(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPartyBehavior$State.class: void save();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSpacing.class: private static com.aionemu.gameserver.services.playerbot.PlayerBotSpacing$Values lambda$values$0(int, java.lang.Integer);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSpacing.class: public static void configure(com.aionemu.gameserver.services.playerbot.PlayerBotSession, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormationLayout.class: private static com.aionemu.gameserver.services.playerbot.PlayerBotFormationLayout$Preference lambda$selected$0(int, java.lang.Integer);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormationLayout.class: static synchronized java.lang.String configure(int, int, java.lang.String);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPartyCompletion.class: static java.util.Map<java.lang.Integer, java.lang.Integer> load(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPartyCompletion.class: static void remember(com.aionemu.gameserver.model.gameobjects.player.Player, int, int);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPresets$Store.class: synchronized com.aionemu.gameserver.services.playerbot.PlayerBotPresets$Document load(int) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPresets$Store.class: synchronized void write(com.aionemu.gameserver.services.playerbot.PlayerBotPresets$Document) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotRosterRemoval.class: static void archive(java.nio.file.Path, int, int, java.lang.String) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotRosterRemoval.class: static java.lang.String remove(com.aionemu.gameserver.model.gameobjects.player.Player, int, com.aionemu.gameserver.services.playerbot.PlayerBotPresets$Store);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotRosterRemoval.class: static boolean removed(java.nio.file.Path, int, int) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/PlayerBotHttpService.class: public static void handle(com.sun.net.httpserver.HttpExchange) throws java.io.IOException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTemporary.class: private static void persistCreation(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotTemporary$State);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotPersistence.class: static void save(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.services.playerbot.PlayerBotPersistence$Home) throws java.sql.SQLException;",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: synchronized boolean tick();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: private com.aionemu.gameserver.model.gameobjects.Npc chooseTarget(java.util.List<com.aionemu.gameserver.model.gameobjects.Npc>, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: void markClosing();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotHazards.class: private static void lambda$visible$0(java.util.List, com.aionemu.gameserver.model.gameobjects.Creature, int, com.aionemu.gameserver.model.gameobjects.Npc);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotEncounters.class: static boolean allowsAttack(com.aionemu.gameserver.model.gameobjects.Creature, com.aionemu.gameserver.model.gameobjects.Npc, long);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotGroundNavigation.class: public static com.aionemu.gameserver.geoEngine.math.Vector3f walk(com.aionemu.gameserver.geoEngine.models.GeoMap, int, float, float, float, float, float);",
+        "com/aionemu/gameserver/controllers/movement/PlayerBotMoveController.class: private void moveStep();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: private void applyPreferences(com.aionemu.gameserver.services.playerbot.PlayerBotPreferences$Values);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: public synchronized void order(com.aionemu.gameserver.services.playerbot.PlayerBotRules$Order);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession$CastAction.class: public boolean execute();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSteelRake.class: static boolean attackable(com.aionemu.gameserver.model.gameobjects.Npc);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSteelRake.class: static com.aionemu.gameserver.model.gameobjects.Npc adds(java.util.List<com.aionemu.gameserver.model.gameobjects.Npc>);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: private boolean validEnemy(com.aionemu.gameserver.model.gameobjects.Npc, java.util.List<com.aionemu.gameserver.model.gameobjects.player.Player>, boolean);",
+        "com/aionemu/gameserver/controllers/movement/PlayerBotMoveController.class: public synchronized void abortMove();",
+        "com/aionemu/gameserver/controllers/movement/PlayerBotMoveController.class: private void moveStep();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: static double speed(double, double, double, boolean);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: static void close(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: static void following(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player, int);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: public static double speedMultiplier(com.aionemu.gameserver.model.gameobjects.player.Player, float, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean move(float, float, float);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotNavigation.class: boolean follow(com.aionemu.gameserver.model.gameobjects.player.Player, int);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotSession.class: synchronized boolean tick();",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTravel.class: public static void summon(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotTravel.class: public static void summonAll(java.util.List<com.aionemu.gameserver.services.playerbot.PlayerBotSession>);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotRecovery.class: static boolean ready(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotRecovery.class: static void tick(com.aionemu.gameserver.services.playerbot.PlayerBotSession);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: static com.aionemu.gameserver.services.playerbot.PlayerBotNavigation$Point destination(com.aionemu.gameserver.model.gameobjects.player.Player, com.aionemu.gameserver.model.gameobjects.player.Player, int);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: static void close(com.aionemu.gameserver.model.gameobjects.player.Player);",
+        "com/aionemu/gameserver/services/playerbot/PlayerBotFormation.class: public static double speedMultiplier(com.aionemu.gameserver.model.gameobjects.player.Player, float, float, float);"
       ]
     }
   ],
   "serverLauncherSha256": "0f2c7c17e84ef05e9a95b7ef9d1a0742623d3fb6c7aa9deb1b25ace9aaa1884c",
-  "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261004-001635-270547",
+  "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-045914-902012",
   "limitations": [
     "Hashes/layouts/hooks do not establish live gameplay acceptance.",
     "Quest Tooltip directory holds a prototype; installation is not established.",

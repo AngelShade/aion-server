@@ -1,14 +1,46 @@
 # Installed modifications and remaining work
 
+## Current follow/summon repair — installed offline 8 October 2026
+
+PB-REPAIR-FORMATION-002 and PB-CONFIG-001 are installed in external receipt
+`20261008-062930-344543`. Continuous direct follow intent refreshes the selected
+formation on movement ticks; travel outranks optional idle actions; speed matches
+the owner and recovers slot error. Native casts, collision, explicit orders and
+role combat positioning remain authoritative. Both server enable/summon switches
+are true, with shared ownership/party/combat/cast/trade/loot/channel preflight.
+Automatic map/wipe recovery remains independent of the manual summon switch.
+
+679 new effective checks plus core 72/engine 99/composition 49/spell planning 44/
+speed packets 6/trail 17/ground 57/formation 314 pass. All 2,423 current server
+sources compile externally; all Playerbots check sources compile. Initially thirteen
+methods/six existing definitions changed, 166 earlier JAR entries retained. Latest
+Steel Rake `061243-633233` and core execution `054856-494763` survive. Only the
+cumulative JAR and main Playerbots config changed; base/launcher/geometry/scripts/
+bundled UI/31 client hashes/alt builds retained. Inventory: 20 checks, 73 client/
+102 server receipts. Override SHA-256:
+`f4855888ee12bea913327c8be2462835e292cb3c4f5ec5db5cd4e891221c5a27`.
+
+PB-VAL-005 actual rendered movement/formation/turns/flight/doors and summon control
+acceptance remain the user's tests. The new config field is cold-load-only.
+GameServer/client stayed off; no startup/restart/attach, native gameplay or real
+DB/world/ID writes. This repair does not close full parity or block independent
+tracks. **Next class port remains PB-PORT-005B Spiritmaster.** See
+[follow/summon behavior, sources and acceptance](PLAYERBOTS_FOLLOW_SUMMON_20261008.md).
+
+
 This is the continuity inventory for all conversations in this project. The user
 requires later installations to retain earlier mods, including their recovery
 records. Refresh evidence before installation; do not infer installation from a
 source commit, an old staging package, or a backup directory alone.
 
-Checked on 7 October 2026 against the actual client and server deployment.
-`INSTALLED_MODS.json` records 31 current file hashes, 16 native/layout/recovery
-checks, 70 client receipts, 86 server receipts and selected deployed settings.
-These checks establish presence/preservation, not acceptance of every game flow.
+Checked on 8 October 2026 against the actual client and server deployment.
+`INSTALLED_MODS.json` records 31 current file hashes, 20 native/layout/recovery
+checks, 73 client receipts, 99 server receipts and selected deployed settings.
+All 20 checks pass. The earlier recruitment comparison failure was traced to five
+compiler-regenerated native dungeon cache classes; reviewed methods/schema were
+verified identical and current bytes recorded without replacing them. These checks
+establish presence/preservation, not acceptance of every game flow. See
+`PLAYERBOTS_CAST_EXECUTION_20261008.md` and `LOGIN_RECONNECT_CRASH_20261008.md`.
 
 | Feature | Current evidence / status | Preserve and remaining checks |
 | --- | --- | --- |
@@ -26,7 +58,7 @@ These checks establish presence/preservation, not acceptance of every game flow.
 | Signed Additional Functions and compact browser titles | Shop, Market, Wardrobe, Journey, Season Pass and Companion actions remain; all six native browser routes match expected hook code. | Keep compact auth/title handling, stock model key, separate addon key, bundled Lua/pet signatures and existing archive entries. |
 | Choose Your Journey, Elyos/Asmodian entry and ceremony rewards | Menu/native journey route and deployed option present; journey/bootstrap/both-faction and ceremony receipts retained. | Keep native visibility/session callbacks, choice persistence, faction/class choices, mailed rewards, legacy duplicate protection and deferred normal ceremony turn-in rewards. |
 | Aetherfall Season Pass | Menu/native route and ticket in both English HUDs present; server/pass/UI receipts retained. | Preserve rewards, claims, account persistence, previews, automatic refresh, artwork and native tooltips. |
-| Remember Account & Password / return to login | English checkbox and all five initial/return native hooks match receipts; native DLL preserved. | Preserve opt-in vault behavior, password flag, notice reload, field placement, visibility transitions and typed edits. Never include credentials in inventories. |
+| Remember Account & Password / return to login | **Installed/offline verified**, 8 October: AFK reconnect crash traced to native runtime writes into the Reset cave. Observer moved to the dedicated login patch section, with independent graphics/cursor restore imports. Login extension and all five prior hooks retained. External receipt `archives/client/remember-login-return-20261008-050005-613742`. | Preserve opt-in vault, masking, localized Announcement and typed edits. AFK Reconnect/Login and ordinary Logout/Login remain actual client acceptance; see `LOGIN_RECONNECT_CRASH_20261008.md` and `LOGIN_RETURN_20261007.md`. |
 | Speech bubble styles / native context menu | All seven native hooks match the last menu/artwork receipt; DLL present. | Retain custom artwork, styles, context menu, server metadata/ack handling and normal NPC/chat behavior. |
 | Bundle opening without reuse cooldown | Client Items archive/index and server bundle-opening receipts retained. | Cover all 4,125 bundles; keep native opening animation and concurrent-use guard; only reuse delay is removed. |
 | Restored reward boxes | Existing restoration and deployed data retained by the incremental server patch. | Preserve exact IDs and class/faction outcomes. The broader PR #200/#211 source/schema migration is prepared work, not proven installed; see `DECOMPOSABLE_PR_REVIEW.md`. |
@@ -45,7 +77,16 @@ These checks establish presence/preservation, not acceptance of every game flow.
 | Quest marker/name beside hovered mob tooltip | `D:/Proiecte/Project Restructure/Aion Quest Tooltip` currently contains only a builder and `QuestTooltipProbe.pak`; a finished installed implementation is not established. | Pending work. Preserve the intended contextual placement; do not report the prototype as a working game mod. |
 | Browser modernization | Read-only ABI investigation exists; installed Awesomium remains. | Ultralight adapter/source integration is unfinished. Do not overwrite the browser DLL without preserving icons, previews/auth and actual callbacks. |
 | Shared webpage flash | Investigation exists; no confirmed correction installed. | The browser probe was removed by request; `AionBrowserProbe.dll` remains absent. Do not silently reinstall it. |
+| Custom window login delay | **Installed/offline verified**, 7 October: bounded RelicCalc style-command batching; external receipt `archives/client/window-queue-20261007-221447-067110`. | Shared UI queue reached 4,001 during the reproduced login delay. Preserve native artwork/setters, six routes, graphics/cursor records and both restore baselines. Launcher and disposable restore checks pass. Actual first-login latency, Wardrobe visuals and pet/menu acceptance remain pending; see `CUSTOM_WINDOW_DELAY_20261007.md`. |
 | AFK keepalive experiment | Removed intentionally; deployed JAR has no `AfkKeepAlive` classes and no AFK config file. | Do not restore it from an old build/backup. Connection survival had not established prevention of the client AFK timer. |
+
+Final pre-handoff lock-order correction is included in that receipt: AI-resolved
+local geometry is cached, so movement refresh and follow speed never acquire
+service/session formation locks under the mover monitor. Three Formation methods
+plus FollowIntent refresh/cache initialization and a new Geometry record changed;
+174 other entries retained. Effective bytecode and world-free cache tests pass.
+Cold-load-only helper schema; future existing helper edits require explicit SCOPES.
+
 
 ## Temporary Bot roster removal installed
 
@@ -651,9 +692,13 @@ gameplay/DB/ID tests. User actual care/gear/supplies acceptance is pending.
 See [settings diagnosis and installation](PLAYERBOTS_SETTINGS_FILES_20261007.md).
 
 Next broader slice stays PB-PORT-005B Spiritmaster; independent scope tracks remain
-open. Appearance and follow recovery remain source/staged only; earlier packages
-must be restaged against the new cumulative receipt before install. Do not copy an
-older staging JAR over this repair. All earlier unfinished port/repair work survives.
+open. PB-REPAIR-FOLLOW-001 was rejected and removed in `171732-465446`.
+Generic navigation PB-REPAIR-NAV-002 is installed offline through `190312-034119`.
+The user reported continued failure after `175949-485037`; the latest continuation
+repairs reached-breadcrumb progress in the shared follow executor (17 progress and
+40 geometry checks pass). Actual door/room/combat/party acceptance remains pending. Appearance remains source/staged only
+and must be restaged against the current cumulative receipt before installation.
+All earlier unfinished port/repair work survives.
 
 ## PB-SCOPE-012A native metadata — installed offline 7 October 2026
 
@@ -682,5 +727,172 @@ See [native metadata port](PLAYERBOTS_METADATA_20261007.md). PB-VAL-011 migratio
 disk installation are complete; actual care/gear/supplies/trade checkpoints,
 failure/retry and dismissal/resummon/restart gameplay acceptance remain the user's
 tests. PB-PORT-005B Spiritmaster is the next separate class implementation. Other
-repository namespaces and the full port remain partial. Appearance/follow packages
-remain source/staged only and must be restaged against this receipt before install.
+repository namespaces and the full port remain partial. Appearance remains
+source/staged only and must be restaged against the current receipt before install.
+
+## PB-REPAIR-FOLLOW-001 — removed by user request 7 October 2026
+
+The user rejected the stalled-follower teleport fallback because companions must
+walk through opened doors and rooms while entering/leaving combat. It was removed
+from source and deployment in `playerbots-recruitment-20261007-171732-465446`.
+The override and incidental bots.js change were restored exactly to the complete
+metadata baseline. Historical packages/receipts remain evidence and must not be
+reinstalled. See [removal record](PLAYERBOTS_FOLLOW_RECOVERY_20261005.md).
+
+## PB-REPAIR-NAV-002 — initial generic navigation installed offline 7 October 2026 (superseded below)
+
+Bots recognize native opened doors whose collision leaf incorrectly duplicates
+the closed leaf, including separately stored identical meshes. They use smaller
+floor probes, tighter local routes and floor-following movement at every movement
+tick. Ranged movement seeks a walkable firing position while retaining native
+cast sight/range checks. The same movement path is used for follow, combat, retreat
+and hazards; there is no dungeon/door/room allowlist or recovery teleport.
+
+Five methods in four existing definitions changed; two helper definitions were
+added. **151 earlier override entries are byte-identical**. All native geometry,
+base JAR, launcher, command/UI, 93 settings/media files and 31 client hashes remain
+unchanged. Current override SHA-256:
+`a39133ac5c6caa958a8ce7fd65c7b4812d56481297c44b164592503f6d1c3cdc`.
+Current cumulative receipt:
+`D:/Proiecte/Project Restructure/Aion Development Workspace/archives/server/game-server/backups/playerbots-recruitment-20261007-175949-485037`.
+
+Full offline source compilation passes, as do 40 isolated native mesh/route checks
+and all 15 opened/closed door crossing comparisons against unchanged installed
+geometry. Inventory passes 16 checks, recording 70 client/89 server historical
+receipts. No server/client startup, restart, attach, DB write or actor fixture ran.
+The actual reported room freezes are not reproduced/closed by these isolated
+probes. Room/combat/party acceptance stays pending with the user. See
+[navigation evidence and limits](PLAYERBOTS_NAVIGATION_20261007.md).
+
+
+### PB-REPAIR-NAV-002 continuation — follow progress installed offline 7 October
+
+User screenshots prove the initial door adapter did not close the failure. The
+shared follow executor now consumes every breadcrumb through the newest reached
+point and rejects already reached destinations; stale heads can no longer pin
+progress at a visible point behind a door. Navigation reports a reached waypoint
+accurately. No map/door/room exceptions or combat-state recovery gate are added.
+
+Current cumulative receipt is
+`D:/Proiecte/Project Restructure/Aion Development Workspace/archives/server/game-server/backups/playerbots-recruitment-20261007-190312-034119`.
+Override SHA-256:
+`8fac72f9facd7b56204f6d3488fcf6eb88fdb6b2e01f65270024fc424aa2007c`.
+Only Navigation.follow/move changed, one helper added; 156 prior entries remain
+byte-identical. Base JAR, launcher, native geometry, command/UI, 61 current
+settings/media files and all 31 current client hashes survive. Host CIM confirmed
+GameServer/client off; installer rechecked twice. No agent startup/attach occurred.
+
+Full source compile (2,413 server sources), 17 progress/40 geometry checks against
+the installed JAR, selected source/effective methods and all 16 mod inventory
+checks pass. Inventory records 70 client/91 server historical receipts. The
+constructed history at reported coordinates proves an engine defect, not the
+complete live trail/cause. Actual door/room/combat/party acceptance remains pending.
+
+
+## Current continuation — PB-SCOPE-012B installed and 52 files retired
+
+On the user's remaining-file report, preferences (17), behavior (13), spacing (7),
+formation (2) and reward witnesses (13) moved to native MetadataDAO persistence.
+All 52 rows imported and verified exactly from a separate read-only connection;
+all 52 originals archived/hash-verified then removed offline. Nine media/preset/
+removal files remain unchanged. Current cumulative receipt is `191742-640906`,
+cleanup `191828-971151`; override SHA-256 `83a3143148a2e3a8f5b28894742399db05f8c302111990df41b2adf99b2dc978`.
+The complete navigation repair and other mods survive (152 prior entries identical).
+Eleven existing methods/six definitions changed, one helper added. Full compile,
+35 existing metadata/31 preference checks, 16 mod checks/31 client hashes pass;
+inventory 70 client/93 server receipts. GameServer/client remain off; no lifecycle
+action or live attach occurred. Actual settings/reward/restart acceptance remains
+PB-VAL-011; door/room acceptance remains PB-VAL-005. PB-PORT-005B stays next class
+slice; Temporary creation gear-file gap PB-SCOPE-012A-R1 remains separate/open.
+See [remaining preference namespaces and evidence](PLAYERBOTS_METADATA_PREFERENCES_20261007.md).
+
+
+## Current continuation — PB-SCOPE-012C repository installed, runtime folders retired
+
+Two saved-party documents and four removal markers now use native account/roster
+repository tables; three UI files are bundled unchanged in the cumulative JAR.
+Six exact native owned rows imported/verified read-only, nine originals externally
+archived/hash-verified and retired; saved-parties/removed/media folders are absent,
+runtime config/playerbots is empty. Creation gap PB-SCOPE-012A-R1 is also repaired:
+pre-row generated provenance queues into the first native inventory checkpoint.
+Current cumulative receipt `193213-430087`, SHA-256
+`4a65e21ca22fff63a2d1cbbf7d0472bbb314894994045ceba5264894581de69b`.
+Eight existing methods/five definitions changed; 154 prior entries byte-identical.
+Full compile/24 repository/10 creation checks and 17 mod checks/31 client hashes
+pass. Native read-only production loaders pass for both accounts/four removed
+roster entries. Inventory: 70 client/94 server receipts. Server/client remained
+off, no attach or lifecycle action. Actual preset/remove/UI/new-creation/restart
+acceptance remains with user; PB-PORT-005B stays next independent class slice.
+See [native repository and packaged interface](PLAYERBOTS_REPOSITORY_20261007.md).
+
+
+## Steel Rake encounters and general physical-see-through navigation — 7 October
+
+PB-SCOPE-007A native boss lifecycle/visible companion tactics installed offline in
+`223400-856173`; PB-REPAIR-NAV-003 shared ground support followed in `224940-884362`.
+Final two-script phase-target correction `225401-230689` retains the same cumulative
+JAR SHA-256 `8653514fdf8956c3ffcf3e311c84ccd6341a8525e6832cf45e760fde8e4662e0`.
+Preserve steam/bomb warnings, protected phases, registered captain adds, Mantutu's
+single FOLLOW operator/native food-water channel and encounter-owned callback
+cleanup. Shared floor probes now recognise PHYSICAL_SEE_THROUGH support with
+native slope/height/wall/closed-door checks; no room/map exception or teleport.
+All prior cumulative mods, bundled UI, native repository/settings, launcher,
+base JAR and geodata remain intact. Full final source/13-handler compile, 113
+isolated policy/callback/navigation checks, exact reported mesh movement and 15
+door-state comparisons pass. Refreshed inventory: 19 checks, 31 client hashes,
+72 client/97 server receipts. GameServer/client remain off; boss/room/combat
+client acceptance is pending. See the current [encounter record](PLAYERBOTS_STEEL_RAKE_20261007.md)
+and [navigation record](PLAYERBOTS_NAVIGATION_20261007.md). Full port and other
+unfinished work are unchanged in scope; appearance remains source/staged only.
+
+
+## Current repair — PB-REPAIR-ENGINE-001 installed offline 8 October 2026
+
+The shared mover could execute stale work after casting began, and repeated orders
+cancelled native casts. Unchanged preferences also discarded engine continuers.
+Core moveStep/Session order/applyPreferences/CastAction.execute now enforce current
+movement/casting state, atomic mover/cast admission and idempotent controls. Real
+order/mission/attack changes still interrupt deliberately. No delay/spacing tuning,
+global cancel suppression or change to native interruption rules was added.
+
+Four baseline production failures reproduced; 72 effective core checks, 99 engine,
+31 recording-JDBC preference, 49 composition, 44 spell-planning and 17 navigation
+checks pass. All 2,420 sources compile externally. Four methods/three definitions
+changed; 168 unrelated JAR entries and all earlier mods/owned-alt builds retained.
+Five compiler-regenerated native handler cache classes were method/schema verified
+against reviewed references and archived unchanged, without disabling hash guards.
+All 20 inventory checks/31 client hashes pass; 73 client/99 server receipts.
+
+Current core receipt is external `20261008-054856-494763`, override SHA-256
+`77890851c3e6b15ca73558abb62266ffbf32b88722c5825ae73963ebb13cfa93`.
+GameServer/client remained off; no startup/restart/attach, native casts, world/ID
+operations or real DB writes. PB-VAL-009 actual cast/charge/chain/control gameplay
+acceptance remains the user's test. PB-PORT-005B Spiritmaster remains the independent
+next class slice; other port/validation tracks remain open. See
+[core execution diagnosis and control review](PLAYERBOTS_CAST_EXECUTION_20261008.md).
+
+
+## Current continuation — PB-SCOPE-007A-R1 original Steel Rake TODO behavior
+
+Installed offline 8 October 2026 in external cumulative receipt
+`playerbots-recruitment-20261008-061243-633233`, retaining concurrent engine repair
+`054856-494763` and all earlier navigation/mods. Current override SHA-256:
+`abe0403e86bc715d20d44625e87ffd0e5e56a9051b74e11d061d1bc88c56d76d`.
+Captain towers, floor-correct add lanes, staircase retreat/return, native amplifier
+activation/enhancement/root and sequenced pull/blast now run through owned phases;
+gunner pause also blocks already queued attacks/casts. Companion tactics exclude
+scenery and prioritize engaged caster/healer adds. All seven original comment
+texts remain beside implementations; the historical packet-capture evidence gap
+is explicit. Exact retail offsets/cadence are unverified native-asset adaptations.
+
+Three effective methods/two definitions change, one tactic helper is added and
+169 unrelated JAR entries are byte-identical. 2,423 core sources/15 handlers
+compile externally; 479 isolated phase/tactic/callback/navigation/core regression
+checks and read-only native floor/add-lane checks pass. Post-install package and
+20 mod checks/31 client hashes pass; inventory 73 client/100 server receipts.
+Bundled UI, native repositories, owned alt builds, generic floor routing, client,
+launcher/base/geodata and source-only appearance work survive. Runtime bot config
+remains empty. GameServer/client stayed off; actual encounter casts, movement,
+wipes and client presentation remain user acceptance. PB-PORT-005B remains the
+independent next class implementation; broader parity/other investigations remain
+open. See [TODO mapping, sources and evidence limits](PLAYERBOTS_STEEL_RAKE_20261007.md).
