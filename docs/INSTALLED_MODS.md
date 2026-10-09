@@ -1,6 +1,81 @@
 # Installed modifications and remaining work
 
-## Current source-built Spiritmaster slice - installed offline 8 October 2026
+## Cleric recovery timing — installed offline 9 October 2026
+
+**PB-PORT-005C** adds the confirmed missing Cleric distinction between immediate
+recovery, delayed HoT ticks and conditional HP healing. Native first-heal timing
+and useful amount drive critical/low-health ordering and almost-full HoT
+maintenance. Existing group/pet targets, hybrid cleanses, reservations,
+resurrection, cast/cost/cooldown gates and owned-alt builds are preserved.
+Chanter scoring remains unchanged and is the next separate review, **PB-PORT-005D**.
+This bounded recovery slice does not establish full Cleric or Playerbots parity.
+
+Complete unchanged normal Maven GameServer output is installed in external receipt
+`playerbots-source-build-20261009-045131-933181`, retaining PB-BUILD-003,
+NAV-004, Spiritmaster and all earlier mods. GameServer SHA
+`bc9de279a811fbd35c8ab1188ada2f07e41a4fa34fe6560efad32f50d9362d6c`;
+Commons, launcher, configuration, geometry and all managed runtime data are unchanged.
+Only Healing.priority and Session.tick change existing method behavior; CaseHeal
+adds read-only metadata getters with all eight execution methods preserved.
+3,544 prior JAR entries remain byte-identical.
+
+87 Cleric checks plus 14 existing world-free suites pass (1,905 checks). Complete
+assembly audit, all 1,757 handler compilations, production XML/schema/JAXB loading
+and 3,284-class / 171,909-reference linkage pass. Postinstall inventory passes
+20 mod checks and 31 current client hashes; 74 client/111 server historical receipts
+are recorded. Two changed client settings hashes were refreshed through the full
+passing inventory and preserved. Initial process/hash guards refused before any
+copy; after the user's normal shutdown, fresh checks and guarded backup/copy
+succeeded through `tools/release-game-server.py --scope PB-PORT-005C --review <review> --install`.
+No startup/stop/restart, attach, native cast, world actor or database operation was
+performed. **PB-VAL-013 actual Cleric casting/healing acceptance remains pending
+user testing.** See [gap, native mapping and evidence](PLAYERBOTS_CLERIC_20261009.md).
+
+## Complete resource delivery and workflow audit — installed offline 8 October 2026
+
+**PB-BUILD-003** installs all ten remaining maintained handler/static-resource
+differences with unchanged normal Maven output in receipt
+`playerbots-source-build-20261008-225416-105523`. This includes zone API alignment
+and previously undelivered 1 October quest/skill fixes. All 3,549 non-manifest
+JAR entries remain byte-identical; NAV-004, Spiritmaster and earlier mods survive.
+All 1,757 handlers compile, 14 world-free suites pass (1,818 checks), full static
+merge/XSD/JAXB loading and 3,281-class linkage pass. Inventory: 20 checks/31 client
+hashes. No startup, attach, gameplay or database operation. Actual startup and
+PB-VAL-005/012 gameplay remain pending user testing; next independent class review
+remains **PB-PORT-005C Cleric**. Every future GameServer release must use the
+canonical locked workflow in `tools/release-game-server.py`. See
+[audit, resource list and receipt](BUILD_DELIVERY_AUDIT_20261008.md).
+
+## Current source/static-data alignment - installed offline 8 October 2026
+
+**PB-BUILD-002** fixes the reported `<items>` versus `<set>` startup mismatch.
+Matching maintained box XML/schema, import registry, two required item additions
+and command sources were delivered with the complete unchanged normal Maven JAR
+in receipt `playerbots-source-build-20261008-220257-711786`. Obsolete generated
+XML/command caches were archived and invalidated. Full isolated production
+static-data merge/schema/JAXB loading passes: 102,012 items, 4,091 decomposable
+definitions and 470 overrides. All 3,549 non-manifest JAR entries, including
+NAV-004, remain byte-identical; 20 mod checks/31 client hashes pass. The previously
+prepared box rework's matching resources are now installed. Actual startup,
+movement and box-opening acceptance remain pending user testing. See
+[delivery gap, repair and mandatory full-data gate](SOURCE_BUILD_STATIC_DATA_20261008.md).
+
+## Current shared ground recovery - installed offline 8 October 2026
+
+**PB-REPAIR-NAV-004** retains intended destination altitude throughout bot
+planning/follow/controller probes. An unsupported elevated starting position can
+recover onto its nearest verified floor after unobstructed foot/body sweeps;
+ordinary walking, slope, gap/cliff and door guards remain. No map/coordinate
+exceptions. Actual mesh traces reach the reported lower position; 57 existing
+ground/door/route checks and 3,281-class runtime linkage pass. Complete normal
+Maven GameServer output was copied unchanged in receipt
+`playerbots-source-build-20261008-214740-770720`; 3,542 unrelated JAR entries,
+settings, Commons, launcher and client remain preserved. Installed inventory
+passes 20 checks/31 client hashes. **PB-VAL-005 gameplay pending user testing.**
+Next independent class review remains PB-PORT-005C Cleric. See
+[cause, shared source repair and offline delivery](PLAYERBOTS_GROUND_RECOVERY_20261008.md).
+
+## Previous source-built Spiritmaster slice - installed offline 8 October 2026
 
 **PB-PORT-005B / PB-BUILD-001**: only confirmed missing Spiritmaster single-target
 HP/MP-restoring damage/DoT/follow-up ordering was added after checking current
