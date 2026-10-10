@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-10T20:14:03.952586+00:00",
+  "checkedAt": "2026-10-10T20:32:35.686103+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "marketplaceTokenRouteInstalled": true,
@@ -296,6 +296,7 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261010-220903-785288\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261010-223156-617438\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261010-231349-474859\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261010-233223-856383\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -444,7 +445,7 @@
     "gameserver.playerbots.population.player_focus.radius": "900",
     "gameserver.playerbots.population.maps": ""
   },
-  "serverJarSha256": "85eb95f862a2f4c844620fd5c40587bc9e6181139e8e8feef94945332c4c14ac",
+  "serverJarSha256": "f582272d828b20b643941f2a927020d6c4c88aab3f05480e944fd1e828d23670",
   "serverClassOverrides": [],
   "serverLauncherSha256": "af383e57c367d1b7072ea069147e164d62466b51650d6b7c20f2b07ccfcf4d16",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-205636-436423",
