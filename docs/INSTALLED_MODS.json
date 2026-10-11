@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T15:25:09.888482+00:00",
+  "checkedAt": "2026-10-11T19:32:13.004555+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "marketplaceTokenRouteInstalled": true,
@@ -145,7 +145,7 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "96cf6252be37fd0973388641a54246a7089cc286eae726c1b5433df668c70bce"
+      "sha256": "b9e855bb0a04a9aea80df9949ea82a567e18921b5841d8fdfabe68cceb94a121"
     },
     {
       "path": "SystemOptionGraphics.cfg",
@@ -306,6 +306,7 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-091509-037915\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-171808-276790\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-182454-369109\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-223149-555737\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -454,7 +455,7 @@
     "gameserver.playerbots.population.player_focus.radius": "900",
     "gameserver.playerbots.population.maps": ""
   },
-  "serverJarSha256": "688c9dd0c2b137e58f8474d77607034c407ca9594b4175acfbf88edfdf3e4587",
+  "serverJarSha256": "87c16905e16fc3fc906d6d5558f88d1cf4336e2920b9b8f20a77c694b1e94914",
   "serverClassOverrides": [],
   "serverLauncherSha256": "af383e57c367d1b7072ea069147e164d62466b51650d6b7c20f2b07ccfcf4d16",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-205636-436423",

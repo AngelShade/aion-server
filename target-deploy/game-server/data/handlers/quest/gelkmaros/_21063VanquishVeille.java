@@ -21,6 +21,11 @@ public class _21063VanquishVeille extends AbstractQuestHandler {
 	}
 
 	@Override
+	public java.util.List<com.aionemu.gameserver.questEngine.model.QuestBotAction> getPlayerBotActions(Player player) {
+		return com.aionemu.gameserver.questEngine.model.QuestBotKillObjectFamilies.spyLeague(player, questId, 182207852, 799354, 281433, 799225, 182207853);
+	}
+
+	@Override
 	public void register() {
 		qe.registerQuestItem(182207852, questId);
 		qe.registerQuestNpc(799354).addOnTalkEvent(questId);
@@ -58,11 +63,13 @@ public class _21063VanquishVeille extends AbstractQuestHandler {
 			}
 		} else if (qs.getStatus() == QuestStatus.REWARD) {
 			if (targetId == 799225) {
+				if (player.getInventory().getItemCountByItemId(182207852) < 1
+					|| player.getInventory().getItemCountByItemId(182207853) < 1)
+					return false;
 				if (dialogActionId == USE_OBJECT) {
 					return sendQuestDialog(env, 10002);
 				}
-				removeQuestItem(env, 182207852, 1);
-				removeQuestItem(env, 182207853, 1);
+				// Native successful finishQuest work-item cleanup owns both debits.
 				return sendQuestEndDialog(env);
 			}
 		}
