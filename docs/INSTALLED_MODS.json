@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T02:23:53.244552+00:00",
+  "checkedAt": "2026-10-11T14:18:25.444657+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "marketplaceTokenRouteInstalled": true,
@@ -145,7 +145,7 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "bda7016fd0b7410fa663939b8536fa76a0aa53ab2c5f4ce59b985282a2497c88"
+      "sha256": "96cf6252be37fd0973388641a54246a7089cc286eae726c1b5433df668c70bce"
     },
     {
       "path": "SystemOptionGraphics.cfg",
@@ -303,6 +303,8 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-035314-522287\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-043735-264032\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-052341-513574\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-091509-037915\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261011-171808-276790\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -451,7 +453,7 @@
     "gameserver.playerbots.population.player_focus.radius": "900",
     "gameserver.playerbots.population.maps": ""
   },
-  "serverJarSha256": "fa2a7ca7da8b6ff3ffc32038d691aa2650c3b0add2c0fdf1aa4040e4e40da79e",
+  "serverJarSha256": "446522b595efdd28dd52a318e387acf51f172eb37a7ba333bd048dbc59130798",
   "serverClassOverrides": [],
   "serverLauncherSha256": "af383e57c367d1b7072ea069147e164d62466b51650d6b7c20f2b07ccfcf4d16",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-205636-436423",
