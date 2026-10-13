@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T19:46:42.016385+00:00",
+  "checkedAt": "2026-10-13T03:11:36.145866+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "marketplaceTokenRouteInstalled": true,
@@ -57,7 +57,7 @@
     },
     {
       "path": "bin64/AionMarketShortcut.dll",
-      "sha256": "f3bc7bb66f5e48ef4101e4d1b92c21a97ca9ad3e891aec74beb797bd0a82983a"
+      "sha256": "46d2e4b68da75f65a5996a1cd10dac9f5c6042a69b169425af4714ea91b82905"
     },
     {
       "path": "bin64/AionRememberLogin.dll",
@@ -69,7 +69,7 @@
     },
     {
       "path": "Data/ui/ui.pak",
-      "sha256": "3bcc444ba5d5297253ddf1f943c53447a189803efe4d4c32a5375a53ccd34441"
+      "sha256": "9e451220663290f1f595e8e4d9ca62431f740f5a4e5ce72491429421595a692a"
     },
     {
       "path": "Data/ui/game/game.pak",
@@ -77,7 +77,7 @@
     },
     {
       "path": "L10N/enu/Data/data.pak",
-      "sha256": "d36cc58686b04569bcfeb24969b1dc975cbf7779ce805b2dae0d7ab075e94252"
+      "sha256": "36f2ad4c009577f569e8b066100e412634a53aa202a6b38642b001680c4fc6fc"
     },
     {
       "path": "Data/Items/Items.pak",
@@ -85,7 +85,7 @@
     },
     {
       "path": "Textures/ui/ui.pak",
-      "sha256": "2177ef0bfb974b01491a7a4be72eaf03eb4b797a5db5ae2aafba073ebdef4fe0"
+      "sha256": "22a1feff91418c8cef6be5b2a8fbd75e63d983e24eaabd85505af187d30fa2cc"
     },
     {
       "path": "bin32/bin32.pak",
@@ -97,7 +97,7 @@
     },
     {
       "path": "Addon.key",
-      "sha256": "cfb47760aec133bfaa4ceac3bdc7d2b857fdbcd27c9ae34ef44e4f8bc0561380"
+      "sha256": "c0494ad095d283a25ab55723b7e05de207c4d64c38c2808e985ea28f747ab10e"
     },
     {
       "path": "Pub.key",
@@ -105,19 +105,19 @@
     },
     {
       "path": "Plugin/RelicCalc/RelicCalc.pak",
-      "sha256": "4a4111ff168818d18553f3f171a9a1dfac1197a0dad6b2c91532d0ba81948c0c"
+      "sha256": "8aedd56904be67f56591e3d9ed861c1b9d9e7e8bf2918c4ff7ec59a86c92f569"
     },
     {
       "path": "Plugin/RelicCalc/RelicCalc.pak.sig",
-      "sha256": "aa7f8fff0a15531d950ce0a16f5d45f13cc602344987edf304c63fafc2157c74"
+      "sha256": "034b0ede6cd21686b5ef63e869f5388f36e4b05ad6c149c91b3d0c62f0fecd00"
     },
     {
       "path": "bin32/bin32.pak.sig",
-      "sha256": "50df13598777e61882a5e6924dca246a3e8ceda892a2286391aee205c7c6c484"
+      "sha256": "5a99d7992047f0e8cecf16bd3e04ed3b4d54c97428b579f19b86ecd5d82604f2"
     },
     {
       "path": "Data/func_pet/func_pet.pak.sig",
-      "sha256": "12a355150c74f366029fc19472ed229ddd1c1cec6481dc08c2868fc6998553e5"
+      "sha256": "0a694341b1640cf45916496c3032f24f2afb6d1ae6f1c1bb1b1d75f4967ba96e"
     },
     {
       "path": "Aion Start.bat",
@@ -129,11 +129,11 @@
     },
     {
       "path": "DXVK/graphics-menu/installed.json",
-      "sha256": "a19a83d21d20d497e8a219c42018f73a45cec79c20ceb56b6f2de4aa26155d2a"
+      "sha256": "504fda1f7d46579f31761927149ff7475eced4b7abe571ee70271991848d42f5"
     },
     {
       "path": "DXVK/graphics-menu/package/manifest.json",
-      "sha256": "60cf22eef5eed934c3104ef00ae9d4923388704bebc7287c9fa6a906e62d9fb7"
+      "sha256": "7242e5a8f4be7fe8f0e71f68ccafffe2c780a586139947dbd9a7258dcdaefe62"
     },
     {
       "path": "DXVK/renderer.ini",
@@ -145,11 +145,11 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "df1d376be6cf4a94b947df0d6f6a2404bce6dcc3f48a9c00a1038a81fdc141f1"
+      "sha256": "f47192f7dcdc0a5f34291e194a9aee099eb1d7706b3a729d82703ae2365bfed9"
     },
     {
       "path": "SystemOptionGraphics.cfg",
-      "sha256": "c6d5f670a1626bfa2264a69339f67a38402a8ddda45dac54b88ee4b9beaf73d4"
+      "sha256": "f132939e19c7e43958d937bed9286774f0599e2e18903f5fff7480ce7645824c"
     }
   ],
   "clientReceipts": [
@@ -158,6 +158,7 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\marketplace-session-20261008-205654-357237\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\remember-login-return-20261007-225046-935256\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\remember-login-return-20261008-050005-613742\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\service-shortcuts-20261013-061006-239765\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\window-queue-20261007-221447-067110\\manifest.json",
     "DXVK-backups\\companions-tracking-20261004-001807-929437\\manifest.json",
     "DXVK-backups\\localized-menu-stage-20261001-065143-409\\manifest.json",
@@ -324,6 +325,7 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261012-220336-335851\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261012-223704-919501\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261012-224626-142201\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261013-045013-915377\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -429,7 +431,7 @@
     "gameserver.inventory.unified": "true",
     "gameserver.warehouse.expanded": "true"
   },
-  "serverJarSha256": "9fd7faa742182b49063b87a8b48b4325c2f2014077be1aceef6cd564667fd926",
+  "serverJarSha256": "0820239bde09463a705fd5b0a48bf147ae15154d708d805aa3f1e2fd45e39d52",
   "serverClassOverrides": [],
   "serverLauncherSha256": "af383e57c367d1b7072ea069147e164d62466b51650d6b7c20f2b07ccfcf4d16",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-205636-436423",
