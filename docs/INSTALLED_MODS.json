@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T09:48:11.287617+00:00",
+  "checkedAt": "2026-10-16T23:05:58.794947+00:00",
   "clientRoot": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA",
   "serverRoot": "C:\\Git\\aion-server\\target-deploy\\game-server",
   "marketplaceTokenRouteInstalled": true,
@@ -69,7 +69,7 @@
     },
     {
       "path": "Data/ui/ui.pak",
-      "sha256": "9e451220663290f1f595e8e4d9ca62431f740f5a4e5ce72491429421595a692a"
+      "sha256": "2d9fc4c29c490b293468b161cf391c6ed0250c0e010c5ed284ed677bf1d1c08e"
     },
     {
       "path": "Data/ui/game/game.pak",
@@ -77,11 +77,15 @@
     },
     {
       "path": "L10N/enu/Data/data.pak",
-      "sha256": "36f2ad4c009577f569e8b066100e412634a53aa202a6b38642b001680c4fc6fc"
+      "sha256": "76c383bb63f9c10460e37970bb167f71eb3d9f7b2a91d4fcdb3919facac06306"
     },
     {
       "path": "Data/Items/Items.pak",
       "sha256": "73205a1e6145b31408d919f0a35d7ddc776728505dba64ad8436714df1f3ee0e"
+    },
+    {
+      "path": "Data/Npcs/Npcs.pak",
+      "sha256": "563e0176bc9f24566fb2b653f5585993173407a8c52c37c418890fec1ce1cff0"
     },
     {
       "path": "Textures/ui/ui.pak",
@@ -129,11 +133,11 @@
     },
     {
       "path": "DXVK/graphics-menu/installed.json",
-      "sha256": "504fda1f7d46579f31761927149ff7475eced4b7abe571ee70271991848d42f5"
+      "sha256": "f6938aa8f200121374c74902a9d1d8f0874bffa0dfa8209c72117648f7829121"
     },
     {
       "path": "DXVK/graphics-menu/package/manifest.json",
-      "sha256": "7242e5a8f4be7fe8f0e71f68ccafffe2c780a586139947dbd9a7258dcdaefe62"
+      "sha256": "dbe0aaebc6d5efd71dadb765a86cfd55b752c285c48bf1a2165c4d9f0e434a74"
     },
     {
       "path": "DXVK/renderer.ini",
@@ -145,7 +149,7 @@
     },
     {
       "path": "system.cfg",
-      "sha256": "eb88084146e7d842bab37d0d81c75f3f278d572ce16e5691f7982b2720b990ed"
+      "sha256": "acced95f077b9dadfe48e61df0e36bffbdf38e319530898362e5d213d182cb6e"
     },
     {
       "path": "SystemOptionGraphics.cfg",
@@ -335,6 +339,11 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261015-215929-458482\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261016-071232-651645\\manifest.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261016-124441-764229\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261016-203144-734720\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261016-210908-294288\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261016-235538-215006\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261017-002814-411672\\manifest.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-source-build-20261017-020205-703675\\manifest.json",
     "backups\\bundle-opening-20261003-210509\\manifest.json",
     "backups\\bundle-opening-20261003-213230\\manifest.json",
     "backups\\ceremony-rewards-20261001-201118\\manifest.json",
@@ -440,7 +449,7 @@
     "gameserver.inventory.unified": "true",
     "gameserver.warehouse.expanded": "true"
   },
-  "serverJarSha256": "be6d93943dc6dd740dd152984dc0668c1f5a28a3c136ca20d8245cd10560277f",
+  "serverJarSha256": "0215b218a92ef0c374ff4e16acd89041669309f88c0669aed1240f5e3ffe9692",
   "serverClassOverrides": [],
   "serverLauncherSha256": "a31970b79aa0a33b91fc8adb1967b849750794766a7b202029c94ed4c8de46fb",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\DXVK-backups\\service-menu-graphics-20261008-205636-436423",
