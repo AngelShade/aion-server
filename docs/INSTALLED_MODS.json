@@ -161,7 +161,7 @@
     },
     {
       "path": "Aetherfall Launcher.exe",
-      "sha256": "654f970a8e68dbf89b36f4bbbb5b7786bb40fec02a79190f69b0da972c29d6cc"
+      "sha256": "314546cc68ee392e3d6975f9f399a7fcc1c323eff56be02e55738119324ece36"
     },
     {
       "path": "Mods/Launcher/Assets/atreia.png",
@@ -173,7 +173,7 @@
     },
     {
       "path": "Mods/Launcher/README.md",
-      "sha256": "6dd2302c99ef830326f1269e613fe53a79bd6a5e6f08193344e8d52415b0e38b"
+      "sha256": "8773d7386498c7dd0a8a6f77cf8158fdb784bc750b5ecbe4c0c772518b0c453d"
     },
     {
       "path": "Mods/Launcher/Assets/prompts.md",
@@ -185,7 +185,7 @@
     },
     {
       "path": "Mods/InstalledMods.json",
-      "sha256": "0585cc0c85f4fb22adc51207b6213d3647736960eb55ecadf94534cf88a12863"
+      "sha256": "68cff1ba5252cd7ded4c8d12ce0020f08f11c214c39f27cf79f784115b110dd1"
     },
     {
       "path": "Mods/Launcher/Assets/aetherfall-logo.png",
@@ -205,7 +205,7 @@
     },
     {
       "path": "Mods/release.json",
-      "sha256": "fa1a41df56af2832289ceb4bc719127f8ae3dbb678424dca5be8d7157653b08d"
+      "sha256": "dc7e1d3865147726f42ebe88ddaa5234d9f043c81248f2db377fe90b3801ec23"
     },
     {
       "path": "bin64/AionLootRoll.dll",
@@ -218,6 +218,10 @@
     {
       "path": "Mods/Launcher/startup-bridge.json",
       "sha256": "ce56170a45bcc4dc726c929d12f9adf94b90af640d2fd14ea94ca907b1f74730"
+    },
+    {
+      "path": "Mods/MultiClient/README.txt",
+      "sha256": "49abc834ff06659d61e6ae1ff89bd5d2bca9325a2444c180875b0777463be31d"
     }
   ],
   "clientReceipts": [
@@ -313,7 +317,8 @@
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-live-catalog-20261017\\receipt.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-early-gate-20261017\\receipt.json",
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-native-splash-focus-20261017\\receipt.json",
-    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-native-window-gate-20261017\\receipt.json"
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-native-window-gate-20261017\\receipt.json",
+    "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\launcher-multiclient-20261017\\receipt.json"
   ],
   "serverReceipts": [
     "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\game-server\\backups\\playerbots-active-limit-20261010-031325-062219\\manifest.json",
@@ -533,7 +538,7 @@
     "gameserver.inventory.unified": "true",
     "gameserver.warehouse.expanded": "true"
   },
-  "serverJarSha256": "e2f6e82e8c9d96c1d659b968f6ee3911df6c997e71617b8f529ff2daa9b6b9aa",
+  "serverJarSha256": "71cc5457c2245580ea8bf1167e699be10e9b2b31924387e72628bd4381ebc07b",
   "serverClassOverrides": [],
   "serverLauncherSha256": "a31970b79aa0a33b91fc8adb1967b849750794766a7b202029c94ed4c8de46fb",
   "graphicsBackup": "C:\\Users\\playa\\Downloads\\aion-4.8-na\\Aion 4.8 NA\\Mods\\Backups\\Renderer\\service-menu-graphics-20261017-092138-557506",
@@ -545,7 +550,7 @@
   ],
   "lastIncrementalClientUpdate": {
     "scope": "Graphical Aetherfall launcher; original client only",
-    "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\aetherfall-launcher-native-window-gate-20261017\\receipt.json",
+    "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\client\\launcher-multiclient-20261017\\receipt.json",
     "fullInventoryRerun": false
   },
   "lastAdminInventoryDelivery": {
@@ -605,5 +610,33 @@
     ],
     "verification": "Normal Maven build, JavaScript syntax, bounded external regroup/quantity checks and copied hashes. No full suites or gameplay.",
     "gameplayAcceptance": "Pending user restart and in-game verification"
+  },
+  "lastLiveErrorsDelivery": {
+    "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\backups\\live-errors087-20261017-193830\\manifest.json",
+    "scope": [
+      "Shared public-API ZoneId/Instant JSON adapters",
+      "NPC formation respawn membership and stale return custody"
+    ],
+    "verification": "Normal all-component build and 14 focused native checks with deprecated Unsafe memory access denied; no full suites/gameplay.",
+    "gameplayAcceptance": "Pending user restart and Season Pass / native patrol verification",
+    "liveSlowTaskFinding": "Short profile recorded a 1.674-second G1 pause; isolated latency warnings are not hidden or certified resolved by these two repairs."
+  },
+  "lastReservePlacementDelivery": {
+    "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\backups\\population-reserve089-original-20261017\\manifest.json",
+    "build": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\staging\\target\\population-reserve089-20261017",
+    "productVersion": "0.89",
+    "scope": "Saved reserve creation independent of visible player-map focus; budget-deferred scans retain identity-free continuation",
+    "verification": "Existing normal all-component builder output copied directly; copied hashes verified; no tests or full scans.",
+    "gameplayAcceptance": "Pending user restart and reserve creation/admission verification",
+    "sqlExecuted": false,
+    "repackInitializerInstalled": false
+  },
+  "lastQuestRewardsDelivery": {
+    "receipt": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\archives\\server\\backups\\quest-rewards090-20261017-213556\\manifest.json",
+    "build": "D:\\Proiecte\\Project Restructure\\Aion Development Workspace\\staging\\target\\quest-rewards090-20261017",
+    "scope": "29048 permanent full Ninja card188508001;29045 permanent level-1 Tiamat Whelp egg190020208",
+    "verification": "Normal Maven build; two-ID XML preservation and native item/action/function inspection; copied hashes. No tests, gameplay or SQL.",
+    "originalOnly": true,
+    "gameplayAcceptance": "Pending original server restart and native quest turn-in; previous rewards are not retroactively replaced"
   }
 }
